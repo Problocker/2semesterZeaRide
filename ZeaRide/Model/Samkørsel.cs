@@ -9,6 +9,7 @@ namespace ZeaRide.Model
 {
     class Samkørsel
     {
+        #region Instance field
         private int _samkørselId;
         private string _fra;
         private string _til;
@@ -16,7 +17,9 @@ namespace ZeaRide.Model
         private DateTime _dato;
         private TimeSpan _tid;
         private bool _passager;
+        #endregion
 
+        #region Constructor
         public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, DateTime Dato, TimeSpan Tid, bool Passager)
         {
             _samkørselId = SamkørselId;
@@ -27,7 +30,9 @@ namespace ZeaRide.Model
             _tid = Tid;
             _passager = Passager;
         }
+        #endregion
 
+        #region Properties
         public int samkørselId
         {
             get { return _samkørselId; }
@@ -69,7 +74,9 @@ namespace ZeaRide.Model
             get { return _passager; }
             set { _passager = value; }
         }
+        #endregion
 
+        #region Method
         public string OpretSamkørsel()
             // Det her er metoden hvor brugeren kan oprette en samkørsel
         {
@@ -87,5 +94,6 @@ namespace ZeaRide.Model
         {
             // her skal koden stå
         }
+        #endregion 
     }
 }

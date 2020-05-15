@@ -8,6 +8,7 @@ namespace ZeaRide.Model
 {
     class Bruger
     {
+        #region Instance field
         private int _brugerId;
         private string _fornavn;
         private string _efternavn;
@@ -17,7 +18,9 @@ namespace ZeaRide.Model
         private int _postnummer;
         private string _bilmodel;
         private string _bilfarve;
+        #endregion
 
+        #region Constructor
         public Bruger(int BrugerId, string Fornavn, string Efternavn, string Email, string Password, string By, int Postnummer, string Bilmodel, string Bilfarve)
         {
             _brugerId = BrugerId;
@@ -30,7 +33,9 @@ namespace ZeaRide.Model
             _bilmodel = Bilmodel;
             _bilfarve = Bilfarve;
         }
+        #endregion
 
+        #region Properties
         public int brugerId
         {
             get { return _brugerId; }
@@ -84,11 +89,14 @@ namespace ZeaRide.Model
             get { return _bilfarve; }
             set { _bilfarve = value; }
         }
+        #endregion
 
+        #region Method
         public void OpdatereProfil()
             // Denne metode gør det muligt for brugeren at opdatere sin profil
         {
             // her skal metoden til at opdatere profilen stå
         }
+        #endregion 
     }
 }
