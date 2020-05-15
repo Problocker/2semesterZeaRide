@@ -11,5 +11,6 @@ App.xbf
 MainPage.xbf
 View\Forside.xbf
 View\Logind.xbf
+View\TemplateView.xbf
 ZeaRide.xr.xml
 Properties\Default.rd.xml
