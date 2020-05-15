@@ -10,5 +10,6 @@ namespace ZeaRide
     {
         //Test test test
         //feerefefefefe
+        //Nikolaj kommentar
     }
 }
