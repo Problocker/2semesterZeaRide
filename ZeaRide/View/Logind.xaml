@@ -6,9 +6,57 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="#fff387">
+
+    <!--  
+    ============================================
+    Denne side er designet af Mikkel O
+    ============================================
+    -->
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
+            <Image Source="../Assets/UdklipLogoWhiteTra.png" Height="105" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <TextBlock Text="Kære dig, Velkommen til denn quiz." FontSize="20" TextWrapping="Wrap" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <TextBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="Brugernavn"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <PasswordBox BorderBrush="Black" Margin="0,75,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="Password" PasswordChar="*"></PasswordBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <Button Background="#fff387" Foreground="Black" Content="Login" FontSize="25"  Width="100" Height="50"/>
+        </StackPanel>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,123,0,72" Grid.RowSpan="3"/>
+
 
     </Grid>
 </Page>
