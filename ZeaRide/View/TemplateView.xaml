@@ -12,8 +12,9 @@
             <ResourceDictionary.ThemeDictionaries>
                 <ResourceDictionary x:Key="Light">
 
+
                     <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
-                    <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color ="Purple"/>
+                    <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color ="#FFFFDD3B"/>
 
                 </ResourceDictionary>
             </ResourceDictionary.ThemeDictionaries>
@@ -47,10 +48,12 @@
             <Button Content="Find Samkørsel" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="4" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
             <Button Content="Aktuelle Samkørsler" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="6" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
             <Button Content="Profil" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="8" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
+
             <TextBlock Text="Zealand Roskilde" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="1,121,0,4" Grid.Row="4" SelectionChanged="TextBlock_SelectionChanged" Grid.Column="1"/>
             <TextBlock Text="+45 5076 2600" HorizontalAlignment="Center" Margin="0,120,0,3" Grid.Row="4" SelectionChanged="TextBlock_SelectionChanged" Grid.Column="8"/>
             <TextBlock Text="Email: roskilde@zealand.dk" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="17,121,0,3" Grid.Row="4" SelectionChanged="TextBlock_SelectionChanged" Grid.Column="4"/>
 
+            <Image Source="/Assets/prodbox1a.png" Grid.ColumnSpan="10" Margin="50,96,57,34" Grid.RowSpan="5" />
 
         </Grid>
     </Grid>

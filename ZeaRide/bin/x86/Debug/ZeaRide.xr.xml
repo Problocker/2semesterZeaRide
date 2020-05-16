@@ -21,10 +21,10 @@
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="ZeaRide.MainPage" />
-    <RootType FullName="ZeaRide.View.Forside" />
-    <RootType FullName="ZeaRide.View.Logind" />
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
       <RootProperty Name="ThemeDictionaries" />
     </RootType>
@@ -53,6 +53,12 @@
       <RootProperty Name="Margin" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="ZeaRide.View.Forside" />
+    <RootType FullName="ZeaRide.View.Logind" />
     <RootType FullName="ZeaRide.View.TemplateView" />
   </Roots.RootTypes>
 </Roots>

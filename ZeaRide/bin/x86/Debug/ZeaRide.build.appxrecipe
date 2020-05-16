@@ -34,8 +34,8 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\prodbox1a.png">
+      <PackagePath>Assets\prodbox1a.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -63,6 +63,9 @@
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.xr.xml">
       <PackagePath>ZeaRide.xr.xml</PackagePath>
