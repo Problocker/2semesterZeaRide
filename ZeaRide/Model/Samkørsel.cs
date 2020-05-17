@@ -77,17 +77,17 @@ namespace ZeaRide.Model
         #endregion
 
         #region Method
-        public string OpretSamkørsel()
-            // Det her er metoden hvor brugeren kan oprette en samkørsel
-        {
-            // her skal koden stå
-        }
+        //public string OpretSamkørsel()
+        //    // Det her er metoden hvor brugeren kan oprette en samkørsel
+        //{
+        //    // her skal koden stå
+        //}
 
-        public List<Samkørsel> ListSamkørsel()
-            // Når en samkørsel bliver oprettet vil det blive overført til en liste med andre samkørsler
-        {
-            // her skal koden stå
-        }
+        //public List<Samkørsel> ListSamkørsel()
+        //    // Når en samkørsel bliver oprettet vil det blive overført til en liste med andre samkørsler
+        //{
+        //    // her skal koden stå
+        //}
 
         public void SletSamkørsel()
             // Hvis brugeren gerne vil have, at der skal slettes en samkørsel, så vil denne funktion hjælpe med det

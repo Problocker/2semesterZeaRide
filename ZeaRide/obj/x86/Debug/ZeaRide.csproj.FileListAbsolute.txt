@@ -12,7 +12,6 @@ C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\C
 C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.build.appxrecipe
 C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\System.Runtime.dll
 C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache
 C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.i.cs
 C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.cs
 C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\MainPage.g.i.cs
@@ -113,3 +112,9 @@ C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\q
 C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\TemplateView.g.i.cs
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\TemplateView.g.cs
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\TemplateView.xaml
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\TemplateView.xbf
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache
