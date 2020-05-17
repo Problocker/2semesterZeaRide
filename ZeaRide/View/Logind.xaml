@@ -15,43 +15,33 @@
     -->
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-        </Grid.RowDefinitions>
+        <Grid VerticalAlignment="Top" Background="Black" Padding="15 25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+            </Grid>
+            <Grid Grid.Column="1" HorizontalAlignment="Center">
+                <TextBlock FontSize="26" FontFamily="Bold" Foreground="White" Text="Log ind"></TextBlock>
+            </Grid>
+            <Grid Grid.Column="2" HorizontalAlignment="Right">
+            </Grid>
+        </Grid>
+        <Grid/>
 
-        <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
-            <Image Source="../Assets/UdklipLogoWhiteTra.png" Height="105" />
+        <StackPanel Background="White" Margin="0 200 0 200" Width="600" HorizontalAlignment="Center">
+            <TextBlock Margin="0 0 0 20" Text="Velkommen tl ZeaRide" FontFamily="Arial Black" HorizontalAlignment="Center"/>
+            <TextBlock Margin="0 0 0 10" Text="Logind for at fortsætte, eller opret en bruger." FontFamily="Arial Black" HorizontalAlignment="Center"/>
+            <TextBlock Margin="0 0 0 4" Text="Brugernavn" FontWeight="Bold" FontSize="16"/>
+            <TextBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="eks. jens@zealand.dk"/>
+            <TextBlock Margin="0 10 0 4" Text="Kodeord" FontWeight="Bold" FontSize="16"/>
+            <PasswordBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="******" PasswordChar="*"></PasswordBox>
+            <Button Margin="0 20 0 0" Content="Login" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5" Command="{Binding LoginCommand}"></Button>
+            <!--<TextBlock Text="Forkert brugernavn eller kodeord" Visibility="{Binding ForkertKode}" Foreground="Red" FontSize="18"/>-->
+            <TextBlock Margin="0 10 0 50" Text="Opret bruger" FontFamily="Arial Black" TextDecorations="Underline" HorizontalAlignment="Center"/>
+
         </StackPanel>
-
-        <Border BorderThickness="2" BorderBrush="Black" Background="White"  Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Margin="65,123,66,69" Grid.RowSpan="3"/>
-
-        <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <TextBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="Brugernavn"/>
-        </StackPanel>
-        
-        <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <PasswordBox BorderBrush="Black" Margin="0,75,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="Password" PasswordChar="*"></PasswordBox>
-        </StackPanel>
-
-        <StackPanel Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <Button Background="#fff387" Foreground="Black" Content="Login" FontSize="25"  Width="100" Height="50"/>
-        </StackPanel>
-        
-
-
     </Grid>
 </Page>
