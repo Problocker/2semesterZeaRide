@@ -131,11 +131,20 @@
     <Compile Include="View\AktuelleSamkørsler.xaml.cs">
       <DependentUpon>AktuelleSamkørsler.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\FindSamkørsel.xaml.cs">
+      <DependentUpon>FindSamkørsel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Forside.xaml.cs">
       <DependentUpon>Forside.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Logind.xaml.cs">
       <DependentUpon>Logind.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OpretSamkørsel.xaml.cs">
+      <DependentUpon>OpretSamkørsel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profil.xaml.cs">
+      <DependentUpon>Profil.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\TemplateView.xaml.cs">
       <DependentUpon>TemplateView.xaml</DependentUpon>
@@ -147,6 +156,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\prodbox1a.png" />
     <Content Include="Assets\UdklipLogoWhiteTra.PNG" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -170,11 +180,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\FindSamkørsel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Forside.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Logind.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OpretSamkørsel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Profil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -187,9 +209,13 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Uwp.Managed">
+      <Version>2.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Billeder\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

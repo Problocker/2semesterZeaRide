@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZeaRide.ViewModel
 {
-    class SamkørselVM
+    public class SamkørselVM
     {
     }
 }
