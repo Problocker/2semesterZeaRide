@@ -127,6 +127,7 @@
     <Compile Include="Model\Samkørsel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\BrugerVM.cs" />
+    <Compile Include="ViewModel\SamkørselVM.cs" />
     <Compile Include="View\AktuelleSamkørsler.xaml.cs">
       <DependentUpon>AktuelleSamkørsler.xaml</DependentUpon>
     </Compile>
