@@ -1,5 +1,6 @@
 WinMetadata\Windows.winmd
 Assets\LockScreenLogo.scale-200.png
+Assets\prodbox1a.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -12,6 +13,8 @@ MainPage.xbf
 View\AktuelleSamkørsler.xbf
 View\Forside.xbf
 View\Logind.xbf
+View\OpretSamkørsel.xbf
+View\Profil.xbf
 View\TemplateView.xbf
 ZeaRide.xr.xml
 Properties\Default.rd.xml

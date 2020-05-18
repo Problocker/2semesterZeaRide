@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-5OQ8VMSN</Machine>
-    <WindowsUser>Martin</WindowsUser>
+    <Machine>LAPTOP-6PU1S87U</Machine>
+    <WindowsUser>Mikkel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>42a60873-f3d3-44b8-8292-e81e9c48a63d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Mikkel</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>32AD67EAB9B810900B1139D1305CC6DD2692700FA34475D6B8E86F7DEEC155ED</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>42a60873-f3d3-44b8-8292-e81e9c48a63d_1.0.0.0_x86__ekt0kzgx36mta</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>42a60873-f3d3-44b8-8292-e81e9c48a63d_ekt0kzgx36mta!App</RegisteredUserModeAppID>
@@ -27,18 +27,18 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-18T08:33:08.959</Modified>
+      <Modified>2020-05-18T10:48:55.597</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
       <PackagePath>entrypoint\ZeaRide.exe</PackagePath>
-      <Modified>2020-05-18T08:33:06.986</Modified>
+      <Modified>2020-05-18T10:48:54.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T12:01:14.000</Modified>
     </AppxPackagedFile>
@@ -46,141 +46,153 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\UdklipLogoWhiteTra.PNG">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\prodbox1a.png">
+      <PackagePath>Assets\prodbox1a.png</PackagePath>
+      <Modified>2020-05-18T10:36:32.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\UdklipLogoWhiteTra.PNG">
       <PackagePath>Assets\UdklipLogoWhiteTra.PNG</PackagePath>
-      <Modified>2020-05-16T10:52:33.383</Modified>
+      <Modified>2020-05-15T09:11:20.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-05-14T11:19:26.552</Modified>
+      <Modified>2020-05-14T11:18:12.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-14T11:19:26.552</Modified>
+      <Modified>2020-05-14T11:18:12.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-14T11:19:26.553</Modified>
+      <Modified>2020-05-14T11:18:12.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-14T11:19:26.553</Modified>
+      <Modified>2020-05-14T11:18:12.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-14T11:19:26.554</Modified>
+      <Modified>2020-05-14T11:18:12.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-14T11:19:26.554</Modified>
+      <Modified>2020-05-14T11:18:12.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-14T11:19:26.561</Modified>
+      <Modified>2020-05-14T11:18:12.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-05-14T11:19:26.564</Modified>
+      <Modified>2020-05-14T11:18:12.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.xr.xml">
       <PackagePath>ZeaRide.xr.xml</PackagePath>
-      <Modified>2020-05-18T08:33:06.524</Modified>
+      <Modified>2020-05-18T10:48:53.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-18T08:33:06.603</Modified>
+      <Modified>2020-05-18T10:48:53.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-18T08:33:06.603</Modified>
+      <Modified>2020-05-18T10:48:53.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf">
       <PackagePath>View\AktuelleSamkørsler.xbf</PackagePath>
-      <Modified>2020-05-18T08:33:06.603</Modified>
+      <Modified>2020-05-18T10:48:53.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf">
       <PackagePath>View\Forside.xbf</PackagePath>
-      <Modified>2020-05-18T08:33:06.603</Modified>
+      <Modified>2020-05-18T10:48:53.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf">
       <PackagePath>View\Logind.xbf</PackagePath>
-      <Modified>2020-05-18T08:33:06.604</Modified>
+      <Modified>2020-05-18T10:48:53.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretSamkørsel.xbf">
+      <PackagePath>View\OpretSamkørsel.xbf</PackagePath>
+      <Modified>2020-05-18T10:48:53.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Profil.xbf">
+      <PackagePath>View\Profil.xbf</PackagePath>
+      <Modified>2020-05-18T10:48:53.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf">
       <PackagePath>View\TemplateView.xbf</PackagePath>
-      <Modified>2020-05-18T08:33:06.604</Modified>
+      <Modified>2020-05-18T10:48:53.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-18T08:33:07.914</Modified>
+      <Modified>2020-05-18T10:48:54.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe">
+    <AppxPackagedFile Include="C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe">
       <PackagePath>ZeaRide.exe</PackagePath>
-      <Modified>2020-05-18T08:33:08.933</Modified>
+      <Modified>2020-05-18T10:48:55.586</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Martin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Martin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Martin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Martin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Martin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Martin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Martin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Martin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Martin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Martin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Martin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Martin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
