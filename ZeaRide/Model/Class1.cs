@@ -11,6 +11,8 @@ namespace ZeaRide
         //Test test test
         //feerefefefefe
         //Nikolaj kommentar
+        //Nikolaj kommentar 2
+        //Nikolaj kommentar 3
         //Test lort
     }
 }
