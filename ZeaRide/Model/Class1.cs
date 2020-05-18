@@ -9,5 +9,6 @@ namespace ZeaRide
     class Class1
     {
         //123321
+        //Mikkel er smuk
     }
 }
