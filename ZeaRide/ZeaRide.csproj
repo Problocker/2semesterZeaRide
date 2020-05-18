@@ -137,6 +137,12 @@
     <Compile Include="View\Logind.xaml.cs">
       <DependentUpon>Logind.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\OpretSamkørsel.xaml.cs">
+      <DependentUpon>OpretSamkørsel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profil.xaml.cs">
+      <DependentUpon>Profil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\TemplateView.xaml.cs">
       <DependentUpon>TemplateView.xaml</DependentUpon>
     </Compile>
@@ -175,6 +181,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Logind.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OpretSamkørsel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Profil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
