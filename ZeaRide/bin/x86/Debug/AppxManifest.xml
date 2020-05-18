@@ -44,7 +44,7 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2019" />
+    <build:Item Name="VisualStudioEdition" Value="Blend for Microsoft Visual Studio Enterprise 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.18362.650 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.30009.100" />
     <build:Item Name="ProjectGUID" Value="{D3E7E16A-F3AC-43E9-9B17-9B96F39EFCD6}" />

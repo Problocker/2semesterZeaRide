@@ -28,11 +28,20 @@
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
       <PackagePath>entrypoint\ZeaRide.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\prodbox1a.png">
+      <PackagePath>Assets\prodbox1a.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\UdklipLogoWhiteTra.PNG">
       <PackagePath>Assets\UdklipLogoWhiteTra.PNG</PackagePath>
@@ -79,11 +88,20 @@
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf">
       <PackagePath>View\AktuelleSamkørsler.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\FindSamkørsel.xbf">
+      <PackagePath>View\FindSamkørsel.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf">
       <PackagePath>View\Forside.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf">
       <PackagePath>View\Logind.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretSamkørsel.xbf">
+      <PackagePath>View\OpretSamkørsel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Profil.xbf">
+      <PackagePath>View\Profil.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf">
       <PackagePath>View\TemplateView.xbf</PackagePath>

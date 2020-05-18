@@ -131,6 +131,9 @@
     <Compile Include="View\AktuelleSamkørsler.xaml.cs">
       <DependentUpon>AktuelleSamkørsler.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\FindSamkørsel.xaml.cs">
+      <DependentUpon>FindSamkørsel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Forside.xaml.cs">
       <DependentUpon>Forside.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\FindSamkørsel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Forside.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -201,6 +208,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Uwp.Managed">
+      <Version>2.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
