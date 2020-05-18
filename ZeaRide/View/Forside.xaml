@@ -1,12 +1,13 @@
 ﻿<Page
-    x:Class="ZeaRide.View.Forside"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ZeaRide.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Xaml.Interactivity" xmlns:Custom1="using:Microsoft.Xaml.Interactions.Core"
+    x:Class="ZeaRide.View.Forside"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    >
     <Page.Resources>
         <ResourceDictionary>
             <ResourceDictionary.ThemeDictionaries>
@@ -21,33 +22,67 @@
         </ResourceDictionary>
     </Page.Resources>
 
+    <Page.Background>
+        <ThemeResource ResourceKey="ApplicationPageBackgroundThemeBrush"/>
+    </Page.Background>
+
     <Grid Width="1000">
         <Grid BorderBrush="Black" BorderThickness="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button Content="Forside" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2" Grid.Column="0" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#FFF387"></Button>
-            <Button Content="Opret Samkørsel" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="2" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
-            <Button Content="Find Samkørsel" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="4" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
-            <Button Content="Aktuelle Samkørsler" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="6" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
-            <Button Content="Profil" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="8" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B"></Button>
+            <Button Content="Forside" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2" Grid.Column="0" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#FFF387">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.Forside"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
+            <Button Content="Opret Samkørsel" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="2" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.OpretSamkørsel"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
+            <Button Content="Find Samkørsel" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="4" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.FindSamkørsel"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
+            <Button Content="Aktuelle Samkørsler" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="6" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.AktuelleSamkørsler"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
+            <Button Content="Profil" FontSize="20" FontFamily="Trebuchet MS"  BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="8" Width="200" VerticalAlignment="Top" HorizontalAlignment="Center" Height="65" Background="#338B7B7B">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.Profil"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
 
             <TextBlock Text="Zealand Roskilde" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="1,121,0,4" Grid.Row="4" Grid.Column="1"/>
             <TextBlock Text="+45 5076 2600" HorizontalAlignment="Center" Margin="0,120,0,3" Grid.Row="4" Grid.Column="8"/>
