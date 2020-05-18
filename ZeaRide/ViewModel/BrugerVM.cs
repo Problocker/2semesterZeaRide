@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ZeaRide.ViewModel
 {
-    class BrugerVM
+    public class BrugerVM
     {
+
     }
 }
