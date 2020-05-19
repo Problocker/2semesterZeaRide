@@ -89,7 +89,97 @@
             <TextBlock Text="+45 5076 2600" HorizontalAlignment="Center" Margin="0,120,0,3" Grid.Row="4" Grid.Column="8"/>
             <TextBlock Text="Email: roskilde@zealand.dk" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="17,121,0,3" Grid.Row="4" Grid.Column="4"/>
 
-            <Image Source="/Assets/prodbox1a.png" Grid.ColumnSpan="10" Margin="50,96,57,34" Grid.RowSpan="5" />
+
+            <!-- INDHOLD PÅ SIDEN (NIKOLAJ) -->
+            <!-- Nikolaj Grid start -->
+            <Grid Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="Opret Samkørsel" FontSize="25" HorizontalAlignment="Center"></TextBlock>
+
+                <!-- FRA + Fra destination -->
+                <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Background="Black" Width="100" HorizontalAlignment="Left" Margin="20,0,0,0">
+                    <TextBlock Text="Fra" FontSize="25" Foreground="#FFF387" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                    <TextBox PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                </StackPanel>
+
+                <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" Width="330" Margin="120,0,0,0">
+                    <TextBox PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                </StackPanel>
+
+                <!-- FRA + Til destination -->
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Background="Black" Width="100" HorizontalAlignment="Left" Margin="20,0,0,0">
+                    <TextBlock Text="Til" FontSize="25" Foreground="#FFF387" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                    <TextBox PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                </StackPanel>
+
+                <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="3" Width="330" Margin="120,0,0,0">
+                    <TextBox PlaceholderText="Til destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                </StackPanel>
+
+                <!-- Bemærkninger -->
+                <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" Background="Black" HorizontalAlignment="Left" Margin="20,0,0,0" Width="430">
+                    <TextBlock Text="Bemærkninger" FontSize="25" Foreground="#FFF387" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="6"  Width="430" Margin="20,0,0,60" Grid.RowSpan="4">
+                    <TextBox PlaceholderText="Bemærkninger" HorizontalAlignment="Left" Width="430" FontSize="20" TextChanged="TextBox_TextChanged" Height="180" Text=""></TextBox>
+                </StackPanel>
+
+                <!-- Dato -->
+                <StackPanel Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Background="Black" HorizontalAlignment="Left" Margin="70,0,0,0" Width="100">
+                    <TextBlock Text="Dato" FontSize="25" Foreground="#FFF387" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" Width="330" Margin="170,0,0,0">
+                    
+                    <CalendarDatePicker Width="310" Height="40" FontSize="20"></CalendarDatePicker>
+
+                </StackPanel>
+
+                <!-- Tid -->
+                <StackPanel Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3" Background="Black" HorizontalAlignment="Left" Margin="70,0,0,0" Width="100">
+                    <TextBlock Text="Tid" FontSize="25" Foreground="#FFF387" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="3" Width="330" Margin="170,0,0,0">
+
+                    <TimePicker Height="40"></TimePicker>
+
+                </StackPanel>
+
+                <!-- Nustil knap -->
+                <Button Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="100" FontSize="15" Margin="150,0,0,0">
+                    <TextBlock Text="Nustil"></TextBlock>
+                </Button>
+
+                <!-- Opret samkørsel knap -->
+                <Button Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">
+                    <TextBlock Text="Opret Samkørsel"></TextBlock>
+                </Button>
+
+
+                <!-- Nikolaj Grid slut -->
+            </Grid>
+
 
         </Grid>
     </Grid>
