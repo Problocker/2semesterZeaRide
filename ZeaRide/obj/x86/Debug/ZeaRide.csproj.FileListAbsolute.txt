@@ -257,29 +257,6 @@ C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\Mult
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885598160000000.json
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\App.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\MainPage.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\FindSamkørsel.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretSamkørsel.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Profil.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.xr.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.pdb
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\AppxManifest.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.build.appxrecipe
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.Xaml.Interactions.pdb
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.Xaml.Interactivity.pdb
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\System.Runtime.dll
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.i.cs
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.cs
@@ -319,27 +296,3 @@ C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\Vie
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\Profil.xbf
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\TemplateView.xbf
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csproj.CoreCompileInputs.cache
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csproj.CopyComplete
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.exe
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.pdb
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ResourceHandlingTask.state
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\priconfig.xml
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\unfiltered.layout.resfiles
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\filtered.layout.resfiles
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\filtered.layout.resfiles.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\excluded.layout.resfiles
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\excluded.layout.resfiles.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\resources.resfiles
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\pri.resfiles
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\pri.resfiles.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\qualifiers.txt
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\qualifiers.txt.intermediate
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
