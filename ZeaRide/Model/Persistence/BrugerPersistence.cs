@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ZeaRide.Model.Persistence
 {
-    public class BrugerPersistence
+    class BrugerPersistence
     {
 
     }

@@ -6,9 +6,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:Microsoft.Xaml.Interactivity" xmlns:Custom1="using:Microsoft.Xaml.Interactions.Core"
     x:Class="ZeaRide.View.OpretSamkørsel"
+    xmlns:viewmodel="using:ZeaRide.ViewModel" 
     mc:Ignorable="d"
     >
-
+    <Page.DataContext>
+        <viewmodel:SamkørselVM></viewmodel:SamkørselVM>
+    </Page.DataContext>
+    
     <Page.Resources>
         <ResourceDictionary>
             <ResourceDictionary.ThemeDictionaries>
@@ -172,7 +176,7 @@
                 </Button>
 
                 <!-- Opret samkørsel knap -->
-                <Button Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">
+                <Button Command="{Binding SkabSamkørsel}" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">
                     <TextBlock Text="Opret Samkørsel"></TextBlock>
                 </Button>
 

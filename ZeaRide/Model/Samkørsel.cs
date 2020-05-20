@@ -34,6 +34,11 @@ namespace ZeaRide.Model
         }
         #endregion
 
+        public Samkørsel()
+        {
+
+        }
+
         #region Properties
         public int samkørselId
         {

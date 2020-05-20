@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ZeaRide.Model.Persistence
 {
-    public class SamkørselPersistence
+    class SamkørselPersistence
     {
         private string URI = "http://localhost:56230/api/Samkorsels";
         public async Task<ICollection<Samkørsel>> LoadSamkørsels()
