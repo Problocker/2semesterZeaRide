@@ -16,11 +16,13 @@ namespace ZeaRide.Model
         private string _bemærkninger;
         private DateTime _dato;
         private TimeSpan _tid;
-        private bool _passager;
+
+        // Nikolaj ændret til deltagerID
+        private int _deltagerID;
         #endregion
 
         #region Constructor
-        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, DateTime Dato, TimeSpan Tid, bool Passager)
+        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, DateTime Dato, TimeSpan Tid, int deltagerID)
         {
             _samkørselId = SamkørselId;
             _fra = Fra;
@@ -28,7 +30,7 @@ namespace ZeaRide.Model
             _bemærkninger = Bemærkninger;
             _dato = Dato;
             _tid = Tid;
-            _passager = Passager;
+            _deltagerID = DeltagerID;
         }
         #endregion
 
@@ -69,10 +71,10 @@ namespace ZeaRide.Model
             set { _tid = value; }
         }
 
-        public bool passager
+        public int DeltagerID
         {
-            get { return _passager; }
-            set { _passager = value; }
+            get { return _deltagerID; }
+            set { _deltagerID = value; }
         }
         #endregion
 
