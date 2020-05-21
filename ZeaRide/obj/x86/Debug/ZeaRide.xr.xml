@@ -2,6 +2,12 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="LoginCommand" />
+    <RootPropertyPathName Name="SkabSamkørsel" />
+    <RootPropertyPathName Name="Tid" />
+    <RootPropertyPathName Name="Dato" />
+    <RootPropertyPathName Name="Bemærkninger" />
+    <RootPropertyPathName Name="Til" />
+    <RootPropertyPathName Name="Fra" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -9,6 +15,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
       <RootProperty Name="Resources" />
+      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension">
       <RootProperty Name="ResourceKey" />
@@ -113,8 +120,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
@@ -126,12 +133,17 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="PasswordChar" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
     <RootType FullName="ZeaRide.View.Logind" />
+    <RootType FullName="ZeaRide.ViewModel.SamkørselVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
+      <RootProperty Name="Tag" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
+      <RootProperty Name="Tag" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />

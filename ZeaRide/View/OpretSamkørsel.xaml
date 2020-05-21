@@ -6,9 +6,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:Microsoft.Xaml.Interactivity" xmlns:Custom1="using:Microsoft.Xaml.Interactions.Core"
     x:Class="ZeaRide.View.OpretSamkørsel"
+    xmlns:viewmodel="using:ZeaRide.ViewModel" 
     mc:Ignorable="d"
     >
-
+    <Page.DataContext>
+        <viewmodel:SamkørselVM></viewmodel:SamkørselVM>
+    </Page.DataContext>
+    
     <Page.Resources>
         <ResourceDictionary>
             <ResourceDictionary.ThemeDictionaries>
@@ -122,7 +126,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" Width="330" Margin="120,0,0,0">
-                    <TextBox PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                    <TextBox Text="{Binding SkabSamkørsel.Fra, Mode=TwoWay}" PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
                 </StackPanel>
 
                 <!-- FRA + Til destination -->
@@ -132,7 +136,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="3" Width="330" Margin="120,0,0,0">
-                    <TextBox PlaceholderText="Til destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                    <TextBox Text="{Binding SkabSamkørsel.Til, Mode=TwoWay}" PlaceholderText="Til destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
                 </StackPanel>
 
                 <!-- Bemærkninger -->
@@ -141,7 +145,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="6"  Width="430" Margin="20,0,0,60" Grid.RowSpan="4">
-                    <TextBox PlaceholderText="Bemærkninger" HorizontalAlignment="Left" Width="430" FontSize="20" TextChanged="TextBox_TextChanged" Height="180" Text=""></TextBox>
+                    <TextBox Text="{Binding SkabSamkørsel.Bemærkninger, Mode=TwoWay}" PlaceholderText="Bemærkninger" HorizontalAlignment="Left" Width="430" FontSize="20" TextChanged="TextBox_TextChanged" Height="180"></TextBox>
                 </StackPanel>
 
                 <!-- Dato -->
@@ -151,7 +155,7 @@
 
                 <StackPanel Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" Width="330" Margin="170,0,0,0">
                     
-                    <CalendarDatePicker Width="310" Height="40" FontSize="20"></CalendarDatePicker>
+                    <CalendarDatePicker Tag="{Binding SkabSamkørsel.Dato, Mode=TwoWay}" Width="310" Height="40" FontSize="20"></CalendarDatePicker>
 
                 </StackPanel>
 
@@ -162,7 +166,7 @@
 
                 <StackPanel Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="3" Width="330" Margin="170,0,0,0">
 
-                    <TimePicker Height="40"></TimePicker>
+                    <TimePicker Tag="{Binding SkabSamkørsel.Tid, Mode=TwoWay}" Height="40"></TimePicker>
 
                 </StackPanel>
 
@@ -172,7 +176,7 @@
                 </Button>
 
                 <!-- Opret samkørsel knap -->
-                <Button Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">
+                <Button Command="{Binding SkabSamkørsel}" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">
                     <TextBlock Text="Opret Samkørsel"></TextBlock>
                 </Button>
 
