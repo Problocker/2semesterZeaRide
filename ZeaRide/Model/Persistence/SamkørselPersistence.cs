@@ -9,20 +9,25 @@ using System.Threading.Tasks;
 
 namespace ZeaRide.Model.Persistence
 {
-    class SamkørselPersistence
+    class SamkørselPersistence:IPersistence
     {
         private string URI = "http://localhost:56230/api/Samkorsels";
-        public async Task<ICollection<Samkørsel>> LoadSamkørsels()
+        //public async Task<ICollection<Samkørsel>> LoadSamkørsels()
+        //{
+        //    List<Samkørsel> liste = new List<Samkørsel>();
+
+        //    using (HttpClient client = new HttpClient())
+        //    {
+        //        string json = await client.GetStringAsync(URI);
+        //        liste = JsonConvert.DeserializeObject<List<Samkørsel>>(json); 
+        //    }
+
+        //    return liste;
+        //}
+
+        public void SaveSamkørsels(ICollection<Samkørsel> samkørsels)
         {
-            List<Samkørsel> liste = new List<Samkørsel>();
 
-            using (HttpClient client = new HttpClient())
-            {
-                string json = await client.GetStringAsync(URI);
-                liste = JsonConvert.DeserializeObject<List<Samkørsel>>(json); 
-            }
-
-            return liste;
         }
 
         public async Task<bool> CreateSamkørsel(Samkørsel samkørsel)
@@ -44,22 +49,35 @@ namespace ZeaRide.Model.Persistence
             return ok;
         }
 
-        public async Task<Samkørsel> DeleteSamkørsel(Samkørsel samkørsel)
+        public async Task<ICollection<Samkørsel>> LoadSamkørsel()
         {
-            Samkørsel hersamkørsel = null;
+            List<Samkørsel> liste = new List<Samkørsel>();
 
             using (HttpClient client = new HttpClient())
             {
-                HttpResponseMessage result = await client.DeleteAsync(URI + "/" + samkørsel.samkørselId);
-
-                if (result.IsSuccessStatusCode)
-                {
-                    string json = await result.Content.ReadAsStringAsync();
-                    hersamkørsel = JsonConvert.DeserializeObject<Samkørsel>(json);
-                }
+                string json = await client.GetStringAsync(URI);
+                liste = JsonConvert.DeserializeObject<List<Samkørsel>>(json);
             }
-            return hersamkørsel;
+
+            return liste;
         }
+
+        //public async Task<Samkørsel> DeleteSamkørsel(Samkørsel samkørsel)
+        //{
+        //    Samkørsel hersamkørsel = null;
+
+        //    using (HttpClient client = new HttpClient())
+        //    {
+        //        HttpResponseMessage result = await client.DeleteAsync(URI + "/" + samkørsel.samkørselId);
+
+        //        if (result.IsSuccessStatusCode)
+        //        {
+        //            string json = await result.Content.ReadAsStringAsync();
+        //            hersamkørsel = JsonConvert.DeserializeObject<Samkørsel>(json);
+        //        }
+        //    }
+        //    return hersamkørsel;
+        //}
 
     }
 }

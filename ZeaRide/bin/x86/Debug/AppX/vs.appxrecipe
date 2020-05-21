@@ -30,13 +30,25 @@
     <AppXManifest Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T08:21:42.519</Modified>
+      <Modified>2020-05-21T11:01:56.422</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
       <PackagePath>entrypoint\ZeaRide.exe</PackagePath>
-      <Modified>2020-05-21T08:21:39.963</Modified>
+      <Modified>2020-05-21T11:01:55.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marc\.nuget\packages\exchangeapi\1.541.1821\lib\BetfairAPI.dll">
+      <PackagePath>BetfairAPI.dll</PackagePath>
+      <Modified>2020-03-29T14:05:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marc\.nuget\packages\exchangeapi\1.541.1821\lib\Bookmakers.dll">
+      <PackagePath>Bookmakers.dll</PackagePath>
+      <Modified>2020-05-15T17:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marc\.nuget\packages\exchangeapi\1.541.1821\lib\ExchangeAPI.dll">
+      <PackagePath>ExchangeAPI.dll</PackagePath>
+      <Modified>2020-05-15T17:30:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\.nuget\packages\jetbrains.annotations\2020.1.0\lib\netstandard2.0\JetBrains.Annotations.dll">
       <PackagePath>JetBrains.Annotations.dll</PackagePath>
@@ -154,11 +166,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-21T08:21:40.962</Modified>
+      <Modified>2020-05-21T11:01:55.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe">
       <PackagePath>ZeaRide.exe</PackagePath>
-      <Modified>2020-05-21T08:21:42.490</Modified>
+      <Modified>2020-05-21T11:01:56.411</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

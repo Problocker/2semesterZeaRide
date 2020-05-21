@@ -37,6 +37,10 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "ExchangeAPI": {
+              "target": "Package",
+              "version": "[1.541.1821, )"
+            },
             "JetBrains.Annotations": {
               "target": "Package",
               "version": "[2020.1.0, )"

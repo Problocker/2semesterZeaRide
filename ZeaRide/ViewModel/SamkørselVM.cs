@@ -23,8 +23,8 @@ namespace ZeaRide.ViewModel
         private Samkørsel _skabesSamkørsel;
         private ICommand _opret;
 
-        //private IPersistence _persistence;
-        private SamkørselPersistence _samkørselPersistence; 
+        private IPersistence _persistence;
+        //private SamkørselPersistence _samkørselPersistence; 
 
         public SamkørselVM()
         {
@@ -32,6 +32,8 @@ namespace ZeaRide.ViewModel
             _skabesSamkørsel = new Samkørsel();
 
             _opret = new RelayCommand(CreateSamkørsel);
+
+            _persistence = PersitenceFactory.GetPersistency(PersistenceType.Database);
         }
 
         private Samkørsel SkabSamkørelse
@@ -54,7 +56,7 @@ namespace ZeaRide.ViewModel
         {
             if (_skabesSamkørsel != null && _skabesSamkørsel.samkørselId != -1)
             {
-                await _samkørselPersistence.CreateSamkørsel(_skabesSamkørsel);
+                await _persistence.CreateSamkørsel(_skabesSamkørsel);
                 _samkørsels.Add(_skabesSamkørsel);
             }
         }

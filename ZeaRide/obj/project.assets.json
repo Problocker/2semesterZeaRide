@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -338,6 +351,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -853,6 +879,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -1369,6 +1408,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -1885,6 +1937,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -2400,6 +2465,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -2916,6 +2994,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -3431,6 +3522,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "ExchangeAPI/1.541.1821": {
+        "type": "package",
+        "compile": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        },
+        "runtime": {
+          "lib/BetfairAPI.dll": {},
+          "lib/Bookmakers.dll": {},
+          "lib/ExchangeAPI.dll": {}
+        }
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -3948,6 +4052,21 @@
     }
   },
   "libraries": {
+    "ExchangeAPI/1.541.1821": {
+      "sha512": "rrCecOJ64Y8czTsKwcCCxd4YD+2qJcs5JlZ01r9x4cvGN//e00SEpDX3v1LkSCG5xRcF9meUwW06FokRnF5tsA==",
+      "type": "package",
+      "path": "exchangeapi/1.541.1821",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exchangeapi.1.541.1821.nupkg.sha512",
+        "exchangeapi.nuspec",
+        "lib/BetfairAPI.dll",
+        "lib/Bookmakers.dll",
+        "lib/ExchangeAPI.XML",
+        "lib/ExchangeAPI.dll"
+      ]
+    },
     "JetBrains.Annotations/2020.1.0": {
       "sha512": "kD9D2ey3DGeLbfIzS8PkwLFkcF5vCOLk2rdjgfSxTfpoyovl7gAyoS6yq6T77zo9QgJGaVJ7PO/cSgLopnKlzg==",
       "type": "package",
@@ -8498,6 +8617,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "ExchangeAPI >= 1.541.1821",
       "JetBrains.Annotations >= 2020.1.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "Microsoft.Xaml.Behaviors.Uwp.Managed >= 2.0.1",
@@ -8541,6 +8661,10 @@
     "frameworks": {
       "uap10.0.17763": {
         "dependencies": {
+          "ExchangeAPI": {
+            "target": "Package",
+            "version": "[1.541.1821, )"
+          },
           "JetBrains.Annotations": {
             "target": "Package",
             "version": "[2020.1.0, )"
@@ -8588,5 +8712,17 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ExchangeAPI 1.541.1821' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "libraryId": "ExchangeAPI",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    }
+  ]
 }
