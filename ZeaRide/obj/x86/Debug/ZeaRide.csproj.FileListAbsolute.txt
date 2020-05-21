@@ -193,7 +193,6 @@ C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\Micr
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.Xaml.Interactivity.pdb
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\System.Runtime.dll
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.i.cs
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.cs
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\MainPage.g.i.cs
@@ -255,7 +254,6 @@ C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\qual
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885598160000000.json
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\App.g.i.cs
@@ -347,3 +345,5 @@ C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\Pro
 C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\Martin\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\JetBrains.Annotations.dll
 C:\Users\Martin\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\JetBrains.Annotations.dll
+C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\Newtonsoft.Json.dll
