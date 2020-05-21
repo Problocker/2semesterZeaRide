@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Samkørsels" />
+    <RootPropertyPathName Name="Tid" />
+    <RootPropertyPathName Name="Bemærkninger" />
+    <RootPropertyPathName Name="Fra" />
+    <RootPropertyPathName Name="DeltagerID" />
     <RootPropertyPathName Name="LoginCommand" />
     <RootPropertyPathName Name="SkabSamkørsel" />
-    <RootPropertyPathName Name="Tid" />
     <RootPropertyPathName Name="Dato" />
-    <RootPropertyPathName Name="Bemærkninger" />
     <RootPropertyPathName Name="Til" />
-    <RootPropertyPathName Name="Fra" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -82,6 +84,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Width" />
       <RootProperty Name="TextDecorations" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
@@ -94,10 +97,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Orientation" />
       <RootProperty Name="Background" />
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
       <RootProperty Name="EventName" />
@@ -107,6 +111,17 @@
       <RootProperty Name="TargetPage" />
     </RootType>
     <RootType FullName="ZeaRide.View.AktuelleSamkørsler" />
+    <RootType FullName="ZeaRide.ViewModel.SamkørselVM" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
     <RootType FullName="ZeaRide.View.FindSamkørsel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -133,11 +148,7 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="PasswordChar" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Mode" />
-    </RootType>
     <RootType FullName="ZeaRide.View.Logind" />
-    <RootType FullName="ZeaRide.ViewModel.SamkørselVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
       <RootProperty Name="Tag" />
       <RootProperty Name="Height" />
