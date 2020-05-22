@@ -25,6 +25,19 @@ namespace ZeaRide.Model.Persistence
         //    return liste;
         //}
 
+        public async Task<ICollection<Samkørsel>> LoadSamkørsel()
+        {
+            List<Samkørsel> liste = new List<Samkørsel>();
+
+            using (HttpClient client = new HttpClient())
+            {
+                string json = await client.GetStringAsync(URI);
+                liste = JsonConvert.DeserializeObject<List<Samkørsel>>(json);
+            }
+
+            return liste;
+        }
+
         public void SaveSamkørsels(ICollection<Samkørsel> samkørsels)
         {
 
@@ -47,19 +60,6 @@ namespace ZeaRide.Model.Persistence
                 }
             }
             return ok;
-        }
-
-        public async Task<ICollection<Samkørsel>> LoadSamkørsel()
-        {
-            List<Samkørsel> liste = new List<Samkørsel>();
-
-            using (HttpClient client = new HttpClient())
-            {
-                string json = await client.GetStringAsync(URI);
-                liste = JsonConvert.DeserializeObject<List<Samkørsel>>(json);
-            }
-
-            return liste;
         }
 
         //public async Task<Samkørsel> DeleteSamkørsel(Samkørsel samkørsel)
