@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:26:53.731</Modified>
+      <Modified>2020-05-22T08:18:58.919</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
       <PackagePath>entrypoint\ZeaRide.exe</PackagePath>
-      <Modified>2020-05-21T11:26:50.838</Modified>
+      <Modified>2020-05-22T08:18:57.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\.nuget\packages\jetbrains.annotations\2020.1.0\lib\netstandard2.0\JetBrains.Annotations.dll">
       <PackagePath>JetBrains.Annotations.dll</PackagePath>
@@ -114,39 +114,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.546</Modified>
+      <Modified>2020-05-22T08:18:57.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.547</Modified>
+      <Modified>2020-05-22T08:18:57.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf">
       <PackagePath>View\AktuelleSamkørsler.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.507</Modified>
+      <Modified>2020-05-22T08:18:57.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\FindSamkørsel.xbf">
       <PackagePath>View\FindSamkørsel.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.513</Modified>
+      <Modified>2020-05-22T08:18:57.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf">
       <PackagePath>View\Forside.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.550</Modified>
+      <Modified>2020-05-22T08:18:57.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf">
       <PackagePath>View\Logind.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.552</Modified>
+      <Modified>2020-05-22T08:18:57.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretSamkørsel.xbf">
       <PackagePath>View\OpretSamkørsel.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.536</Modified>
+      <Modified>2020-05-22T08:18:57.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Profil.xbf">
       <PackagePath>View\Profil.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.554</Modified>
+      <Modified>2020-05-22T08:18:57.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf">
       <PackagePath>View\TemplateView.xbf</PackagePath>
-      <Modified>2020-05-21T11:26:50.554</Modified>
+      <Modified>2020-05-22T08:18:57.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -154,11 +154,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-21T11:26:51.661</Modified>
+      <Modified>2020-05-22T08:09:51.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe">
       <PackagePath>ZeaRide.exe</PackagePath>
-      <Modified>2020-05-21T11:26:53.709</Modified>
+      <Modified>2020-05-22T08:18:58.908</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
