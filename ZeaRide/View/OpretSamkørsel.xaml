@@ -155,7 +155,7 @@
 
                 <StackPanel Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" Width="330" Margin="170,0,0,0">
                     
-                    <CalendarDatePicker Tag="{Binding SkabSamkørsel.Dato, Mode=TwoWay}" Width="310" Height="40" FontSize="20"></CalendarDatePicker>
+                    <CalendarDatePicker DateFormat="{Binding SkabSamkørsel.Dato, Mode=TwoWay}" Width="310" Height="40" FontSize="20"></CalendarDatePicker>
 
                 </StackPanel>
 
@@ -166,7 +166,7 @@
 
                 <StackPanel Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="3" Width="330" Margin="170,0,0,0">
 
-                    <TimePicker Tag="{Binding SkabSamkørsel.Tid, Mode=TwoWay}" Height="40"></TimePicker>
+                    <TimePicker Time="{Binding SkabSamkørsel.Tid, Mode=TwoWay}" Height="40"></TimePicker>
 
                 </StackPanel>
 
