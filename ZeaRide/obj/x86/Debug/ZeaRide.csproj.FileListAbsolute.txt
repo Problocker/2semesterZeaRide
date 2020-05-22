@@ -347,3 +347,4 @@ C:\Users\Martin\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\J
 C:\Users\Martin\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\JetBrains.Annotations.dll
 C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Nikolaj Hansen\Source\Repos\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache
