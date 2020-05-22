@@ -52,11 +52,11 @@ namespace ZeaRide.ViewModel
         public ICommand SkabSamkørsel => _opret;
 
         
-        private async void CreateSamkørsel()
+        private void CreateSamkørsel()
         {
             if (_skabesSamkørsel != null && _skabesSamkørsel.samkørselId != -1)
             {
-                await _persistence.CreateSamkørsel(_skabesSamkørsel);
+                _persistence.CreateSamkørsel(_skabesSamkørsel);
                 _samkørsels.Add(_skabesSamkørsel);
             }
         }
