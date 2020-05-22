@@ -36,7 +36,7 @@ namespace ZeaRide.ViewModel
             _persistence = PersitenceFactory.GetPersistency(PersistenceType.Database);
         }
 
-        private Samkørsel SkabSamkørelse
+        public Samkørsel SkabSamkørelse
         {
             get => _skabesSamkørsel;
             set
@@ -52,12 +52,12 @@ namespace ZeaRide.ViewModel
         public ICommand SkabSamkørsel => _opret;
 
         
-        private void CreateSamkørsel()
+        private async void CreateSamkørsel()
         {
             if (_skabesSamkørsel != null && _skabesSamkørsel.samkørselId != -1)
             {
-                _persistence.CreateSamkørsel(_skabesSamkørsel);
-                _samkørsels.Add(_skabesSamkørsel);
+                await _persistence.CreateSamkørsel(_skabesSamkørsel);
+                //_samkørsels.Add(_skabesSamkørsel);
             }
         }
 

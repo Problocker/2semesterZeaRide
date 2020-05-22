@@ -8,8 +8,12 @@
     <RootPropertyPathName Name="DeltagerID" />
     <RootPropertyPathName Name="LoginCommand" />
     <RootPropertyPathName Name="SkabSamkørsel" />
-    <RootPropertyPathName Name="Dato" />
-    <RootPropertyPathName Name="Til" />
+    <RootPropertyPathName Name="SkabSamkørelse" />
+    <RootPropertyPathName Name="tid" />
+    <RootPropertyPathName Name="dato" />
+    <RootPropertyPathName Name="bemærkninger" />
+    <RootPropertyPathName Name="til" />
+    <RootPropertyPathName Name="fra" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -150,7 +154,7 @@
     </RootType>
     <RootType FullName="ZeaRide.View.Logind" />
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
-      <RootProperty Name="Tag" />
+      <RootProperty Name="Time" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
