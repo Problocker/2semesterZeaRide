@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace ZeaRide.Model
 {
@@ -14,15 +15,16 @@ namespace ZeaRide.Model
         private string _fra;
         private string _til;
         private string _bemærkninger;
-        private DateTime _dato;
-        private TimeSpan _tid;
+        // private DateTime _dato;
+        private CalendarDatePicker _dato;
+        private TimePicker _tid;
 
         // Nikolaj ændret til deltagerID
         private int _deltagerID;
         #endregion
 
         #region Constructor
-        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, DateTime Dato, TimeSpan Tid, int deltagerID)
+        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, CalendarDatePicker Dato, TimeSpan Tid, int deltagerID)
         {
             _samkørselId = SamkørselId;
             _fra = Fra;
@@ -66,7 +68,7 @@ namespace ZeaRide.Model
             set { _bemærkninger = value; }
         }
 
-        public DateTime dato
+        public CalendarDatePicker dato
         {
             get { return _dato; }
             set { _dato = value; }
