@@ -79,7 +79,7 @@ namespace ZeaRide.ViewModel
         
         private async void CreateSamkørsel()
         {
-            if (_skabesSamkørsel != null && _skabesSamkørsel.samkørselId != -1)
+            if (_skabesSamkørsel != null && _skabesSamkørsel.samkorselId != -1)
             {
                 await _persistence.CreateSamkørsel(_skabesSamkørsel);
                 //_samkørsels.Add(_skabesSamkørsel);
