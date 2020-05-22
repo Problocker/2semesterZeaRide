@@ -119,7 +119,7 @@
                     <TextBlock Text="Oprettede Samkørsler" FontFamily="Trebuchet MS" FontWeight="Bold" FontSize="20" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Margin="16,32,4,38"/>
 
                     <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1" Margin="15">
-                        <ListView ItemsSource="{Binding Samkørsels}">
+                        <ListView ItemsSource="{Binding Samkørsels}" SelectedItem="">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">

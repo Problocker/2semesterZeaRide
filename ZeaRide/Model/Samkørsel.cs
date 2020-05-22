@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -15,7 +16,7 @@ namespace ZeaRide.Model
         private string _fra;
         private string _til;
         private string _bemærkninger;
-        // private DateTime _dato;
+        //private DateTime _dato;
         private CalendarDatePicker _dato;
         private TimePicker _tid;
 
@@ -24,7 +25,7 @@ namespace ZeaRide.Model
         #endregion
 
         #region Constructor
-        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, CalendarDatePicker Dato, TimeSpan Tid, int deltagerID)
+        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, CalendarDatePicker Dato, TimePicker Tid, int deltagerID)
         {
             _samkørselId = SamkørselId;
             _fra = Fra;
@@ -74,7 +75,7 @@ namespace ZeaRide.Model
             set { _dato = value; }
         }
 
-        public TimeSpan tid
+        public TimePicker tid
         {
             get { return _tid; }
             set { _tid = value; }
