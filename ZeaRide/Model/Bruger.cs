@@ -92,10 +92,15 @@ namespace ZeaRide.Model
         #endregion
 
         #region Method
-        public void OpdatereProfil()
+        //public void OpdatereProfil()
             // Denne metode gør det muligt for brugeren at opdatere sin profil
-        {
+        //{
             // her skal metoden til at opdatere profilen stå
+        //}
+
+        public override string ToString()
+        {
+            return $"Bruger ID: {_brugerId}, Fornavn: {_fornavn}, Efternavn: {_efternavn}, Email: {_email}, Password: {_password}, By: {_by}, Postnummer: {_postnummer}, Bilmodel: {_bilmodel}, Bilfarve: {_bilfarve}.";
         }
         #endregion 
     }

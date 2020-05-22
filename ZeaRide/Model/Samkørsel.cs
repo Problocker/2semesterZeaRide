@@ -34,10 +34,12 @@ namespace ZeaRide.Model
         }
         #endregion
 
+        #region Constructor Default
         public Samkørsel()
         {
 
         }
+        #endregion
 
         #region Properties
         public int samkørselId
@@ -84,6 +86,11 @@ namespace ZeaRide.Model
         #endregion
 
         #region Method
+
+        public override string ToString()
+        {
+            return $"Samkørsel ID: {_samkørselId}, Fra: {_fra}, Til: {_til}, Bemærkninger: {_bemærkninger}, Dato: {_dato}, Tid: {_tid}, Deltager ID: {_deltagerID}.";
+        }
         //public string OpretSamkørsel()
         //    // Det her er metoden hvor brugeren kan oprette en samkørsel
         //{
@@ -96,11 +103,11 @@ namespace ZeaRide.Model
         //    // her skal koden stå
         //}
 
-        public void SletSamkørsel()
+        //public void SletSamkørsel()
             // Hvis brugeren gerne vil have, at der skal slettes en samkørsel, så vil denne funktion hjælpe med det
-        {
+        //{
             // her skal koden stå
-        }
+        //}
         #endregion 
     }
 }
