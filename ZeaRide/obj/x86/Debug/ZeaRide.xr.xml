@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Load" />
     <RootPropertyPathName Name="Samkørsels" />
+    <RootPropertyPathName Name="SelectedSamkørsel" />
     <RootPropertyPathName Name="Tid" />
     <RootPropertyPathName Name="Bemærkninger" />
     <RootPropertyPathName Name="Fra" />
     <RootPropertyPathName Name="DeltagerID" />
     <RootPropertyPathName Name="LoginCommand" />
     <RootPropertyPathName Name="SkabSamkørsel" />
-    <RootPropertyPathName Name="Dato" />
-    <RootPropertyPathName Name="Til" />
+    <RootPropertyPathName Name="SkabSamkørelse" />
+    <RootPropertyPathName Name="tid" />
+    <RootPropertyPathName Name="dato" />
+    <RootPropertyPathName Name="bemærkninger" />
+    <RootPropertyPathName Name="til" />
+    <RootPropertyPathName Name="fra" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -18,6 +24,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Resources" />
       <RootProperty Name="DataContext" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension">
       <RootProperty Name="ResourceKey" />
@@ -112,12 +119,20 @@
     </RootType>
     <RootType FullName="ZeaRide.View.AktuelleSamkørsler" />
     <RootType FullName="ZeaRide.ViewModel.SamkørselVM" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="ItemTemplate" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
@@ -150,7 +165,7 @@
     </RootType>
     <RootType FullName="ZeaRide.View.Logind" />
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
-      <RootProperty Name="Tag" />
+      <RootProperty Name="Time" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">

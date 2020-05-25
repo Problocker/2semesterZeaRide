@@ -28,6 +28,6 @@ namespace ZeaRideREST.Models
 
         public TimeSpan tid { get; set; }
 
-        public int? deltagerID { get; set; }
+        public int deltagerID { get; set; }
     }
 }

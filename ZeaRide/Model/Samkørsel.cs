@@ -1,82 +1,87 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace ZeaRide.Model
 {
     class Samkørsel
     {
         #region Instance field
-        private int _samkørselId;
-        private string _fra;
-        private string _til;
-        private string _bemærkninger;
-        private DateTime _dato;
-        private TimeSpan _tid;
+        private int _samkorselId;
+        private string _fraDestination;
+        private string _tilDestination;
+        private string _bemaerkninger;
+        //private DateTime _dato;
+        private CalendarDatePicker _dato;
+        private TimePicker _tid;
 
         // Nikolaj ændret til deltagerID
         private int _deltagerID;
         #endregion
 
         #region Constructor
-        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, DateTime Dato, TimeSpan Tid, int deltagerID)
+        public Samkørsel(int samkorselId, string fra, string til, string bemaerkninger, CalendarDatePicker dato, TimePicker tid, int deltagerID)
         {
-            _samkørselId = SamkørselId;
-            _fra = Fra;
-            _til = Til;
-            _bemærkninger = Bemærkninger;
-            _dato = Dato;
-            _tid = Tid;
-            _deltagerID = DeltagerID;
+            _samkorselId = samkorselId;
+            _fraDestination = fra;
+            _tilDestination = til;
+            _bemaerkninger = bemaerkninger;
+            _dato = dato;
+            _tid = tid;
+            _deltagerID = deltagerID;
         }
         #endregion
 
+        #region Constructor Default
         public Samkørsel()
         {
 
         }
+        #endregion
 
         #region Properties
-        public int samkørselId
+        public int samkorselId
         {
-            get { return _samkørselId; }
-            set { _samkørselId = value; }
+            get { return _samkorselId; }
+            set { _samkorselId = value; }
         }
 
-        public string fra
+        public string fraDestination
         {
-            get { return _fra; }
-            set { _fra = value; }
+            get { return _fraDestination; }
+            set { _fraDestination = value; }
         }
 
-        public string til
+        public string tilDestination
         {
-            get { return _til; }
-            set { _til = value; }
+            get { return _tilDestination; }
+            set { _tilDestination = value; }
         }
 
-        public string bemærkninger
+        public string bemaerkninger
         {
-            get { return _bemærkninger; }
-            set { _bemærkninger = value; }
+            get { return _bemaerkninger; }
+            set { _bemaerkninger = value; }
         }
 
-        public DateTime dato
+        public CalendarDatePicker dato
         {
             get { return _dato; }
             set { _dato = value; }
         }
 
-        public TimeSpan tid
+        public TimePicker tid
         {
             get { return _tid; }
             set { _tid = value; }
         }
 
-        public int DeltagerID
+        public int deltagerID
         {
             get { return _deltagerID; }
             set { _deltagerID = value; }
@@ -84,6 +89,11 @@ namespace ZeaRide.Model
         #endregion
 
         #region Method
+
+        public override string ToString()
+        {
+            return $"Samkørsel ID: {_samkorselId}, Fra: {_fraDestination}, Til: {_tilDestination}, Bemærkninger: {_bemaerkninger}, Dato: {_dato}, Tid: {_tid}, Deltager ID: {_deltagerID}.";
+        }
         //public string OpretSamkørsel()
         //    // Det her er metoden hvor brugeren kan oprette en samkørsel
         //{
@@ -96,11 +106,11 @@ namespace ZeaRide.Model
         //    // her skal koden stå
         //}
 
-        public void SletSamkørsel()
+        //public void SletSamkørsel()
             // Hvis brugeren gerne vil have, at der skal slettes en samkørsel, så vil denne funktion hjælpe med det
-        {
+        //{
             // her skal koden stå
-        }
+        //}
         #endregion 
     }
 }

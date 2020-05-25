@@ -20,21 +20,37 @@ namespace ZeaRide.ViewModel
         // da det kun er den userstory der fokuseres på i denne omgang.
 
         private ObservableCollection<Samkørsel> _samkørsels;
+        private Samkørsel _selectedSamkørsel;
         private Samkørsel _skabesSamkørsel;
+        private ICommand _load;
         private ICommand _opret;
 
-        //private IPersistence _persistence;
-        private SamkørselPersistence _samkørselPersistence; 
+        private IPersistence _persistence;
 
         public SamkørselVM()
         {
             _samkørsels = new ObservableCollection<Samkørsel>();
+            _selectedSamkørsel = new Samkørsel(); 
             _skabesSamkørsel = new Samkørsel();
 
+            _load = new RelayCommand(LoadSamkørsel);
             _opret = new RelayCommand(CreateSamkørsel);
+
+            _persistence = PersitenceFactory.GetPersistency(PersistenceType.Database);
         }
 
-        private Samkørsel SkabSamkørelse
+        public Samkørsel SelectedSamkørsel
+        {
+            get => _selectedSamkørsel;
+            set
+            {
+                if (Equals(value, _selectedSamkørsel)) return;
+                _selectedSamkørsel = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public Samkørsel SkabSamkørelse
         {
             get => _skabesSamkørsel;
             set
@@ -47,15 +63,26 @@ namespace ZeaRide.ViewModel
 
         public ObservableCollection<Samkørsel> Samkørsels => _samkørsels;
 
+        public ICommand Load => _load;
+        
         public ICommand SkabSamkørsel => _opret;
 
+        private async void LoadSamkørsel()
+        {
+            _samkørsels.Clear();
+            var liste = await _persistence.LoadSamkørsel();
+            foreach (Samkørsel s in liste)
+            {
+                _samkørsels.Add(s);
+            }
+        }
         
         private async void CreateSamkørsel()
         {
-            if (_skabesSamkørsel != null && _skabesSamkørsel.samkørselId != -1)
+            if (_skabesSamkørsel != null && _skabesSamkørsel.samkorselId != -1)
             {
-                await _samkørselPersistence.CreateSamkørsel(_skabesSamkørsel);
-                _samkørsels.Add(_skabesSamkørsel);
+                await _persistence.CreateSamkørsel(_skabesSamkørsel);
+                //_samkørsels.Add(_skabesSamkørsel);
             }
         }
 
