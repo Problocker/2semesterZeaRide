@@ -12,6 +12,7 @@ namespace ZeaRide.Model.Persistence
     {
         private static StorageFolder folder = ApplicationData.Current.LocalFolder;
         private const String FileName = "SamkørslerFil.json";
+        //private const String FileName2 = "BrugerFil.Json";
         private List<Samkørsel> _cacheSamkørsels;
 
         public async Task<ICollection<Samkørsel>> LoadSamkørsel()
@@ -64,5 +65,15 @@ namespace ZeaRide.Model.Persistence
             }
             return exists;
         }
+
+        //public Task<ICollection<Bruger>> LoadBruger()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public Task<bool> CreateBruger(Bruger bruger)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

@@ -14,7 +14,7 @@ namespace ZeaRideREST.Controllers
 {
     public class SamkorselsController : ApiController
     {
-        private Model1 db = new Model1();
+        private ZeaRideModel db = new ZeaRideModel();
 
         // GET: api/Samkorsels
         public IQueryable<Samkorsel> GetSamkorsel()

@@ -9,7 +9,6 @@ namespace ZeaRideREST.Models
     [Table("Bil")]
     public partial class Bil
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int bilID { get; set; }
 
         [StringLength(100)]

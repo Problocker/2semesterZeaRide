@@ -8,9 +8,15 @@ namespace ZeaRide.Model.Persistence
 {
     interface IPersistence
     {
+        // Denne del er til Samkørsel
         Task<ICollection<Samkørsel>> LoadSamkørsel();
         void SaveSamkørsels(ICollection<Samkørsel> samkørsels);
 
         Task<bool> CreateSamkørsel(Samkørsel samkørsel);
+
+        // Denne del er til Bruger
+        //Task<ICollection<Bruger>> LoadBruger();
+
+        //Task<bool> CreateBruger(Bruger bruger);
     }
 }

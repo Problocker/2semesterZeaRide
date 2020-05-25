@@ -16,9 +16,6 @@ namespace ZeaRide.ViewModel
 {
     class SamkørselVM:INotifyPropertyChanged
     {
-        // Nikolaj - indtil videre arbejdes der kun på at oprette en samkørsel
-        // da det kun er den userstory der fokuseres på i denne omgang.
-
         private ObservableCollection<Samkørsel> _samkørsels;
         private Samkørsel _selectedSamkørsel;
         private Samkørsel _skabesSamkørsel;
@@ -33,7 +30,8 @@ namespace ZeaRide.ViewModel
             _selectedSamkørsel = new Samkørsel(); 
             _skabesSamkørsel = new Samkørsel();
             _skabesSamkørsel.dato = DateTime.Now;
-            //_skabesSamkørsel.tid = TimeSpan
+            _skabesSamkørsel.tid = new TimeSpan(13, 45, 00);
+            _skabesSamkørsel.deltagerID = 10;
 
             _load = new RelayCommand(LoadSamkørsel);
             _opret = new RelayCommand(CreateSamkørsel);

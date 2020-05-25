@@ -8505,24 +8505,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nikolaj Hansen\\.nuget\\packages\\": {},
+    "C:\\Users\\Marc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikolaj Hansen\\Source\\Repos\\2semesterZeaRide\\ZeaRide\\ZeaRide.csproj",
+      "projectUniqueName": "C:\\Users\\Marc\\source\\repos\\Problocker\\2semesterZeaRide\\ZeaRide\\ZeaRide.csproj",
       "projectName": "ZeaRide",
-      "projectPath": "C:\\Users\\Nikolaj Hansen\\Source\\Repos\\2semesterZeaRide\\ZeaRide\\ZeaRide.csproj",
-      "packagesPath": "C:\\Users\\Nikolaj Hansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikolaj Hansen\\Source\\Repos\\2semesterZeaRide\\ZeaRide\\obj\\",
+      "projectPath": "C:\\Users\\Marc\\source\\repos\\Problocker\\2semesterZeaRide\\ZeaRide\\ZeaRide.csproj",
+      "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marc\\source\\repos\\Problocker\\2semesterZeaRide\\ZeaRide\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nikolaj Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

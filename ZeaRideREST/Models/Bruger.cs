@@ -9,7 +9,6 @@ namespace ZeaRideREST.Models
     [Table("Bruger")]
     public partial class Bruger
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int brugerID { get; set; }
 
         [Required]
