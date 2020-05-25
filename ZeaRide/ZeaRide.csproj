@@ -121,7 +121,6 @@
     </Compile>
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Model\Bruger.cs" />
-    <Compile Include="Model\Class1.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
