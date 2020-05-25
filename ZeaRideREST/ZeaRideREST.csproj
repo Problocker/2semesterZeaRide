@@ -106,6 +106,7 @@
     <Compile Include="Models\Postnummer.cs" />
     <Compile Include="Models\Samkorsel.cs" />
     <Compile Include="Models\Samkorsler.cs" />
+    <Compile Include="Models\ZeaRideModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

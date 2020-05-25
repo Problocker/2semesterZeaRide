@@ -9,7 +9,6 @@ namespace ZeaRideREST.Models
     [Table("Samkorsel")]
     public partial class Samkorsel
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int samkorselID { get; set; }
 
         [Required]
@@ -24,10 +23,10 @@ namespace ZeaRideREST.Models
         public string bemaerkninger { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime dato { get; set; }
+        public DateTime? dato { get; set; }
 
-        public TimeSpan tid { get; set; }
+        public TimeSpan? tid { get; set; }
 
-        public int deltagerID { get; set; }
+        public int? deltagerID { get; set; }
     }
 }

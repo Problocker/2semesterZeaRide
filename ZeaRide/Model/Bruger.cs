@@ -35,6 +35,13 @@ namespace ZeaRide.Model
         }
         #endregion
 
+        #region Constructor Default
+        public Bruger()
+        {
+
+        }
+        #endregion
+
         #region Properties
         public int brugerId
         {
