@@ -146,6 +146,9 @@
     <Compile Include="View\Logind.xaml.cs">
       <DependentUpon>Logind.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\OpretBrugerView.xaml.cs">
+      <DependentUpon>OpretBrugerView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\OpretSamkørsel.xaml.cs">
       <DependentUpon>OpretSamkørsel.xaml</DependentUpon>
     </Compile>
@@ -195,6 +198,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Logind.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OpretBrugerView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

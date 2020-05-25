@@ -41,6 +41,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Padding" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetColumn" />
@@ -95,6 +96,7 @@
       <RootProperty Name="TextDecorations" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -150,8 +152,9 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="Text" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Text" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
@@ -164,6 +167,7 @@
       <RootProperty Name="PasswordChar" />
     </RootType>
     <RootType FullName="ZeaRide.View.Logind" />
+    <RootType FullName="ZeaRide.View.OpretBrugerView" />
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
       <RootProperty Name="Time" />
       <RootProperty Name="Height" />
