@@ -12,10 +12,10 @@ namespace ZeaRide.Model
     class Samkørsel
     {
         #region Instance field
-        private int _samkørselId;
-        private string _fra;
-        private string _til;
-        private string _bemærkninger;
+        private int _samkorselId;
+        private string _fraDestination;
+        private string _tilDestination;
+        private string _bemaerkninger;
         //private DateTime _dato;
         private CalendarDatePicker _dato;
         private TimePicker _tid;
@@ -25,15 +25,15 @@ namespace ZeaRide.Model
         #endregion
 
         #region Constructor
-        public Samkørsel(int SamkørselId, string Fra, string Til, string Bemærkninger, CalendarDatePicker Dato, TimePicker Tid, int deltagerID)
+        public Samkørsel(int samkorselId, string fra, string til, string bemaerkninger, CalendarDatePicker dato, TimePicker tid, int deltagerID)
         {
-            _samkørselId = SamkørselId;
-            _fra = Fra;
-            _til = Til;
-            _bemærkninger = Bemærkninger;
-            _dato = Dato;
-            _tid = Tid;
-            _deltagerID = DeltagerID;
+            _samkorselId = samkorselId;
+            _fraDestination = fra;
+            _tilDestination = til;
+            _bemaerkninger = bemaerkninger;
+            _dato = dato;
+            _tid = tid;
+            _deltagerID = deltagerID;
         }
         #endregion
 
@@ -45,28 +45,28 @@ namespace ZeaRide.Model
         #endregion
 
         #region Properties
-        public int samkørselId
+        public int samkorselId
         {
-            get { return _samkørselId; }
-            set { _samkørselId = value; }
+            get { return _samkorselId; }
+            set { _samkorselId = value; }
         }
 
-        public string fra
+        public string fraDestination
         {
-            get { return _fra; }
-            set { _fra = value; }
+            get { return _fraDestination; }
+            set { _fraDestination = value; }
         }
 
-        public string til
+        public string tilDestination
         {
-            get { return _til; }
-            set { _til = value; }
+            get { return _tilDestination; }
+            set { _tilDestination = value; }
         }
 
-        public string bemærkninger
+        public string bemaerkninger
         {
-            get { return _bemærkninger; }
-            set { _bemærkninger = value; }
+            get { return _bemaerkninger; }
+            set { _bemaerkninger = value; }
         }
 
         public CalendarDatePicker dato
@@ -81,7 +81,7 @@ namespace ZeaRide.Model
             set { _tid = value; }
         }
 
-        public int DeltagerID
+        public int deltagerID
         {
             get { return _deltagerID; }
             set { _deltagerID = value; }
@@ -92,7 +92,7 @@ namespace ZeaRide.Model
 
         public override string ToString()
         {
-            return $"Samkørsel ID: {_samkørselId}, Fra: {_fra}, Til: {_til}, Bemærkninger: {_bemærkninger}, Dato: {_dato}, Tid: {_tid}, Deltager ID: {_deltagerID}.";
+            return $"Samkørsel ID: {_samkorselId}, Fra: {_fraDestination}, Til: {_tilDestination}, Bemærkninger: {_bemaerkninger}, Dato: {_dato}, Tid: {_tid}, Deltager ID: {_deltagerID}.";
         }
         //public string OpretSamkørsel()
         //    // Det her er metoden hvor brugeren kan oprette en samkørsel

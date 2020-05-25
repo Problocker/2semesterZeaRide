@@ -11,7 +11,7 @@ namespace ZeaRide.Model.Persistence
 {
     class SamkørselPersistence:IPersistence
     {
-        private string URI = "http://localhost:56230/api/Samkorsels";
+        private string URI = "http://localhost:56230/api/Samkorsels/";
         //public async Task<ICollection<Samkørsel>> LoadSamkørsels()
         //{
         //    List<Samkørsel> liste = new List<Samkørsel>();
@@ -27,7 +27,7 @@ namespace ZeaRide.Model.Persistence
 
         public async Task<ICollection<Samkørsel>> LoadSamkørsel()
         {
-            List<Samkørsel> liste = new List<Samkørsel>();
+            List<Samkørsel> liste;
 
             using (HttpClient client = new HttpClient())
             {

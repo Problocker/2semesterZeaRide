@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Load" />
     <RootPropertyPathName Name="Samkørsels" />
+    <RootPropertyPathName Name="SelectedSamkørsel" />
     <RootPropertyPathName Name="Tid" />
     <RootPropertyPathName Name="Bemærkninger" />
     <RootPropertyPathName Name="Fra" />
@@ -22,6 +24,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Resources" />
       <RootProperty Name="DataContext" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension">
       <RootProperty Name="ResourceKey" />
@@ -116,13 +119,20 @@
     </RootType>
     <RootType FullName="ZeaRide.View.AktuelleSamkørsler" />
     <RootType FullName="ZeaRide.ViewModel.SamkørselVM" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="ItemTemplate" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />

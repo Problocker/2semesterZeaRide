@@ -32,6 +32,12 @@
         <ThemeResource ResourceKey="ApplicationPageBackgroundThemeBrush"/>
     </Page.Background>
 
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Content="Load" Command="{Binding Load}"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+    
     <Grid Width="1000">
         <Grid BorderBrush="Black" BorderThickness="1">
             <Grid.RowDefinitions>
@@ -119,7 +125,7 @@
                     <TextBlock Text="Oprettede Samkørsler" FontFamily="Trebuchet MS" FontWeight="Bold" FontSize="20" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Margin="16,32,4,38"/>
 
                     <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1" Margin="15">
-                        <ListView ItemsSource="{Binding Samkørsels}" SelectedItem="">
+                        <ListView ItemsSource="{Binding Samkørsels, Mode=TwoWay}" SelectedItem="{Binding SelectedSamkørsel, Mode=TwoWay}">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
