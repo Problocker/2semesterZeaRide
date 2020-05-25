@@ -5,9 +5,13 @@
     xmlns:local="using:ZeaRide.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="using:ZeaRide.ViewModel"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.DataContext>
+        <viewmodel:BrugerVM></viewmodel:BrugerVM>
+    </Page.DataContext>
     <Grid Width="1000">
         <Grid BorderBrush="Black" BorderThickness="1">
             <Grid.RowDefinitions>
@@ -36,11 +40,11 @@
                 <TextBlock Text="Bruger Oprettelse" Foreground="#FFF387" FontFamily="Arial Black" HorizontalAlignment="Center" FontSize="16" Height="34" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" Margin="0,11,0,0" FontWeight="Bold"/>
             </Grid>
             <TextBlock Text="Fornavn" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,67,0,0"></TextBlock>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,95,0,0" Width="125"/>
+            <TextBox Text="{Binding SkabBruger.fornavn, Mode=TwoWay}"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,95,0,0" Width="125"/>
             <TextBlock Text="Efternavn" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,68,0,0"></TextBlock>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,95,0,0" Width="125"/>
+            <TextBox Text="{Binding SkabBruger.efternavn, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,95,0,0" Width="125"/>
             <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,179,0,0"/>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,206,0,0" Width="264"/>
+            <TextBox Text="{Binding SkabBruger.email, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,206,0,0" Width="264"/>
             <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,288,0,0"/>
             <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,317,0,0" Width="264"/>
             <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,373,0,0"/>

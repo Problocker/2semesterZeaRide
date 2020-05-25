@@ -352,3 +352,8 @@ C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\V
 C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.g.cs
 C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.xaml
 C:\Users\Martin\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.xbf
+C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretBrugerView.xbf
+C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.g.i.cs
+C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.g.cs
+C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.xaml
+C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\View\OpretBrugerView.xbf

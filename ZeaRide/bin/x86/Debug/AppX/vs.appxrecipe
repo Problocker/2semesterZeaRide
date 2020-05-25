@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>42a60873-f3d3-44b8-8292-e81e9c48a63d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Mikkel</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>32AD67EAB9B810900B1139D1305CC6DD2692700FA34475D6B8E86F7DEEC155ED</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>42a60873-f3d3-44b8-8292-e81e9c48a63d_1.0.0.0_x86__ekt0kzgx36mta</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>42a60873-f3d3-44b8-8292-e81e9c48a63d_ekt0kzgx36mta!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-25T11:18:26.085</Modified>
+      <Modified>2020-05-25T13:41:59.465</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.exe">
       <PackagePath>entrypoint\ZeaRide.exe</PackagePath>
-      <Modified>2020-05-25T11:18:24.050</Modified>
+      <Modified>2020-05-25T13:41:58.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marc\.nuget\packages\jetbrains.annotations\2020.1.0\lib\netstandard2.0\JetBrains.Annotations.dll">
       <PackagePath>JetBrains.Annotations.dll</PackagePath>
@@ -62,103 +62,107 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\prodbox1a.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\prodbox1a.png">
       <PackagePath>Assets\prodbox1a.png</PackagePath>
-      <Modified>2020-05-21T11:25:48.930</Modified>
+      <Modified>2020-05-25T13:15:02.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\UdklipLogoWhiteTra.PNG">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\UdklipLogoWhiteTra.PNG">
       <PackagePath>Assets\UdklipLogoWhiteTra.PNG</PackagePath>
-      <Modified>2020-05-21T11:25:48.925</Modified>
+      <Modified>2020-05-25T13:15:02.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-05-21T11:25:48.916</Modified>
+      <Modified>2020-05-25T13:15:02.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:25:48.918</Modified>
+      <Modified>2020-05-25T13:15:02.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:25:48.920</Modified>
+      <Modified>2020-05-25T13:15:02.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:25:48.921</Modified>
+      <Modified>2020-05-25T13:15:02.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:25:48.922</Modified>
+      <Modified>2020-05-25T13:15:02.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:25:48.924</Modified>
+      <Modified>2020-05-25T13:15:02.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-21T11:25:48.927</Modified>
+      <Modified>2020-05-25T13:15:02.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-05-21T11:25:48.953</Modified>
+      <Modified>2020-05-25T13:15:02.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\ZeaRide.xr.xml">
       <PackagePath>ZeaRide.xr.xml</PackagePath>
-      <Modified>2020-05-25T07:38:44.947</Modified>
+      <Modified>2020-05-25T13:41:57.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.774</Modified>
+      <Modified>2020-05-25T13:41:57.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.775</Modified>
+      <Modified>2020-05-25T13:41:57.726</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\AktuelleSamkørsler.xbf">
       <PackagePath>View\AktuelleSamkørsler.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.744</Modified>
+      <Modified>2020-05-25T13:41:57.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\FindSamkørsel.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\FindSamkørsel.xbf">
       <PackagePath>View\FindSamkørsel.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.750</Modified>
+      <Modified>2020-05-25T13:41:57.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Forside.xbf">
       <PackagePath>View\Forside.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.777</Modified>
+      <Modified>2020-05-25T13:41:57.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Logind.xbf">
       <PackagePath>View\Logind.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.778</Modified>
+      <Modified>2020-05-25T13:41:57.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretSamkørsel.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretBrugerView.xbf">
+      <PackagePath>View\OpretBrugerView.xbf</PackagePath>
+      <Modified>2020-05-25T13:41:57.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\OpretSamkørsel.xbf">
       <PackagePath>View\OpretSamkørsel.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.763</Modified>
+      <Modified>2020-05-25T13:41:57.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Profil.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\Profil.xbf">
       <PackagePath>View\Profil.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.779</Modified>
+      <Modified>2020-05-25T13:41:57.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\View\TemplateView.xbf">
       <PackagePath>View\TemplateView.xbf</PackagePath>
-      <Modified>2020-05-25T11:18:23.779</Modified>
+      <Modified>2020-05-25T13:41:57.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-25T08:46:58.579</Modified>
+      <Modified>2020-05-25T13:41:58.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marc\source\repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe">
+    <AppxPackagedFile Include="C:\Users\Marc\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\bin\x86\Debug\Core\ZeaRide.exe">
       <PackagePath>ZeaRide.exe</PackagePath>
-      <Modified>2020-05-25T11:18:26.066</Modified>
+      <Modified>2020-05-25T13:41:59.454</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
