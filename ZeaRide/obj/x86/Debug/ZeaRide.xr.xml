@@ -13,9 +13,9 @@
     <RootPropertyPathName Name="SkabSamkørelse" />
     <RootPropertyPathName Name="tid" />
     <RootPropertyPathName Name="dato" />
-    <RootPropertyPathName Name="bemærkninger" />
-    <RootPropertyPathName Name="til" />
-    <RootPropertyPathName Name="fra" />
+    <RootPropertyPathName Name="bemaerkninger" />
+    <RootPropertyPathName Name="tilDestination" />
+    <RootPropertyPathName Name="fraDestination" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />

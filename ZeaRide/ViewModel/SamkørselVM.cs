@@ -32,6 +32,8 @@ namespace ZeaRide.ViewModel
             _samkørsels = new ObservableCollection<Samkørsel>();
             _selectedSamkørsel = new Samkørsel(); 
             _skabesSamkørsel = new Samkørsel();
+            _skabesSamkørsel.dato = DateTime.Now;
+            //_skabesSamkørsel.tid = TimeSpan
 
             _load = new RelayCommand(LoadSamkørsel);
             _opret = new RelayCommand(CreateSamkørsel);

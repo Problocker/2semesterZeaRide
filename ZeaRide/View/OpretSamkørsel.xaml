@@ -126,7 +126,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" Width="330" Margin="120,0,0,0">
-                    <TextBox Text="{Binding SkabSamkørelse.fra, Mode=TwoWay}" PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                    <TextBox Text="{Binding SkabSamkørelse.fraDestination, Mode=TwoWay}" PlaceholderText="Fra destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
                 </StackPanel>
 
                 <!-- FRA + Til destination -->
@@ -136,7 +136,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="3" Width="330" Margin="120,0,0,0">
-                    <TextBox Text="{Binding SkabSamkørelse.til, Mode=TwoWay}" PlaceholderText="Til destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
+                    <TextBox Text="{Binding SkabSamkørelse.tilDestination, Mode=TwoWay}" PlaceholderText="Til destination" HorizontalAlignment="Left" Width="330" FontSize="20" TextChanged="TextBox_TextChanged"></TextBox>
                 </StackPanel>
 
                 <!-- Bemærkninger -->
@@ -145,7 +145,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="6"  Width="430" Margin="20,0,0,60" Grid.RowSpan="4">
-                    <TextBox Text="{Binding SkabSamkørelse.bemærkninger, Mode=TwoWay}" PlaceholderText="Bemærkninger" HorizontalAlignment="Left" Width="430" FontSize="20" TextChanged="TextBox_TextChanged" Height="180"></TextBox>
+                    <TextBox Text="{Binding SkabSamkørelse.bemaerkninger, Mode=TwoWay}" PlaceholderText="Bemærkninger" HorizontalAlignment="Left" Width="430" FontSize="20" TextChanged="TextBox_TextChanged" Height="180"></TextBox>
                 </StackPanel>
 
                 <!-- Dato -->

@@ -16,16 +16,16 @@ namespace ZeaRide.Model
         private string _fraDestination;
         private string _tilDestination;
         private string _bemaerkninger;
-        //private DateTime _dato;
-        private CalendarDatePicker _dato;
-        private TimePicker _tid;
+        private DateTime _dato;
+        //private CalendarDatePicker _dato;
+        private TimeSpan _tid;
 
         // Nikolaj ændret til deltagerID
         private int _deltagerID;
         #endregion
 
         #region Constructor
-        public Samkørsel(int samkorselId, string fra, string til, string bemaerkninger, CalendarDatePicker dato, TimePicker tid, int deltagerID)
+        public Samkørsel(int samkorselId, string fra, string til, string bemaerkninger, DateTime dato, TimeSpan tid, int deltagerID)
         {
             _samkorselId = samkorselId;
             _fraDestination = fra;
@@ -69,13 +69,13 @@ namespace ZeaRide.Model
             set { _bemaerkninger = value; }
         }
 
-        public CalendarDatePicker dato
+        public DateTime dato
         {
             get { return _dato; }
             set { _dato = value; }
         }
 
-        public TimePicker tid
+        public TimeSpan tid
         {
             get { return _tid; }
             set { _tid = value; }
