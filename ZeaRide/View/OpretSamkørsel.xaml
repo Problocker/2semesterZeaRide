@@ -183,6 +183,9 @@
 
                 <!-- Opret samkørsel knap -->
                 <Button Command="{Binding SkabSamkørsel}" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">
+
+                    <!--<Button Command="{Binding SkabSamkørsel}" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3" Height="50" Width="200" FontSize="15" Margin="280,0,0,0">-->
+
                     <TextBlock Text="Opret Samkørsel"></TextBlock>
                 </Button>
 

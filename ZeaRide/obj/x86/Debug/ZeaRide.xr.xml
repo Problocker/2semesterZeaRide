@@ -4,10 +4,11 @@
     <RootPropertyPathName Name="Load" />
     <RootPropertyPathName Name="Samkørsels" />
     <RootPropertyPathName Name="SelectedSamkørsel" />
-    <RootPropertyPathName Name="Tid" />
-    <RootPropertyPathName Name="Bemærkninger" />
-    <RootPropertyPathName Name="Fra" />
-    <RootPropertyPathName Name="DeltagerID" />
+    <RootPropertyPathName Name="dato" />
+    <RootPropertyPathName Name="tid" />
+    <RootPropertyPathName Name="bemaerkninger" />
+    <RootPropertyPathName Name="tilDestination" />
+    <RootPropertyPathName Name="fraDestination" />
     <RootPropertyPathName Name="LoginCommand" />
     <RootPropertyPathName Name="SkabBruger" />
     <RootPropertyPathName Name="email" />
@@ -15,11 +16,6 @@
     <RootPropertyPathName Name="fornavn" />
     <RootPropertyPathName Name="SkabSamkørsel" />
     <RootPropertyPathName Name="SkabSamkørelse" />
-    <RootPropertyPathName Name="tid" />
-    <RootPropertyPathName Name="dato" />
-    <RootPropertyPathName Name="bemaerkninger" />
-    <RootPropertyPathName Name="tilDestination" />
-    <RootPropertyPathName Name="fraDestination" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
