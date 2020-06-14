@@ -369,3 +369,4 @@ C:\Users\Mikkel\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\q
 C:\Users\Mikkel\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Mikkel\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Mikkel\Source\Repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\Mikkel\source\repos\Problocker\2semesterZeaRide\ZeaRide\obj\x86\Debug\ZeaRide.csprojAssemblyReference.cache

@@ -32,7 +32,7 @@
 
         <StackPanel Background="White" Margin="0 200 0 200" Width="600" HorizontalAlignment="Center">
             <TextBlock Margin="0 0 0 20" Text="Velkommen tl ZeaRide" FontFamily="Arial Black" HorizontalAlignment="Center"/>
-            <TextBlock Margin="0 0 0 10" Text="Logind for at fortsætte, eller opret en bruger." FontFamily="Arial Black" HorizontalAlignment="Center"/>
+            <TextBlock Margin="0 0 0 10" Text="Log ind for at fortsætte, eller opret en bruger." FontFamily="Arial Black" HorizontalAlignment="Center"/>
             <TextBlock Margin="0 0 0 4" Text="Brugernavn" FontWeight="Bold" FontSize="16"/>
             <TextBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="eks. jens@zealand.dk"/>
             <TextBlock Margin="0 10 0 4" Text="Kodeord" FontWeight="Bold" FontSize="16"/>

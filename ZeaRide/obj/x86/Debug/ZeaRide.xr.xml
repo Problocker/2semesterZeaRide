@@ -166,6 +166,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="PasswordChar" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="ZeaRide.View.Logind" />
     <RootType FullName="ZeaRide.ViewModel.BrugerVM" />

@@ -53,10 +53,10 @@
             <TextBox Text="{Binding SkabBruger.efternavn, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,95,0,0" Width="125"/>
             <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,179,0,0"/>
             <TextBox Text="{Binding SkabBruger.email, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,206,0,0" Width="264"/>
-            <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,288,0,0"/>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,317,0,0" Width="264"/>
-            <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,373,0,0"/>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,402,0,0" Width="264"/>
+            <TextBlock Text="Kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,288,0,0"/>
+            <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,317,0,0" Width="264"/>
+            <TextBlock Text="Gentag kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,355,0,0"/>
+            <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,382,0,0" Width="264"/>
 
 
 
