@@ -124,15 +124,17 @@
                     <StackPanel Grid.ColumnSpan="6" Margin="2,2,46,45" Grid.RowSpan="2"/>
                     <TextBlock Text="Oprettede Samkørsler" FontFamily="Trebuchet MS" FontWeight="Bold" FontSize="20" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Margin="16,32,4,38"/>
 
-                    <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1" Margin="15">
+                    <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="10" Grid.RowSpan="1" Margin="15">
                         <ListView ItemsSource="{Binding Samkørsels, Mode=TwoWay}" SelectedItem="{Binding SelectedSamkørsel, Mode=TwoWay}">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding DeltagerID}" Width="20"/>
-                                        <TextBlock Text="{Binding Fra}" Width="20" Margin="20,0,0,0"/>
-                                        <TextBlock Text="{Binding Bemærkninger}" Width="20" Margin="20,0,0,0"/>
-                                        <TextBlock Text="{Binding Tid}" Width="20" Margin="20,0,0,0"/>
+                                        <!--<TextBlock Text="{Binding navn}" Width="150" Margin="20,0,0,0"/>-->
+                                        <TextBlock Text="{Binding fraDestination}" Width="150" Margin="20,0,0,0"></TextBlock>
+                                        <TextBlock Text="{Binding tilDestination}" Width="150" Margin="20,0,0,0"/>
+                                        <TextBlock Text="{Binding bemaerkninger}" Width="150" Margin="20,0,0,0"/>
+                                        <TextBlock Text="{Binding tid}" Width="150" Margin="20,0,0,0"/>
+                                        <TextBlock Text="{Binding dato}" Width="150" Margin="20,0,0,0"/>
                                     </StackPanel>
                                 </DataTemplate>
                             </ListView.ItemTemplate>
