@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GWS/qrMSDNIHb5sWB7GFTKL3+wX/XElqwwJhI/xStnhZ2Ugsyv7zDVYNeV5mtyCCB07tRjjr0ecz1Um2wfkuTg==",
+  "dgSpecHash": "gprZXtkuMmbEnHttLeReY/sbBnV/SDq7f4mEgHtZWdKVPBFU3RutbgvUcizSU4V6UvoKTB0e/pZ2vM1sTfKLhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mikkel\\Source\\Repos\\Problocker\\2semesterZeaRide\\ZeaRide\\ZeaRide.csproj",
+  "projectFilePath": "C:\\Users\\Mikkel\\source\\repos\\Problocker\\2semesterZeaRide\\ZeaRide\\ZeaRide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikkel\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
     "C:\\Users\\Mikkel\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",

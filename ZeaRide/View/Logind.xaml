@@ -1,10 +1,11 @@
 ﻿<Page
-    x:Class="ZeaRide.View.Logind"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ZeaRide.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Xaml.Interactivity" xmlns:Custom1="using:Microsoft.Xaml.Interactions.Core"
+    x:Class="ZeaRide.View.Logind"
     mc:Ignorable="d"
     Background="#fff387">
 
@@ -21,13 +22,11 @@
                 <ColumnDefinition Width="4*"/>
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
-            <Grid Grid.Column="0">
-            </Grid>
+            <Grid Grid.Column="0"/>
             <Grid Grid.Column="1" HorizontalAlignment="Center">
-                <TextBlock FontSize="26" FontFamily="Bold" Foreground="White" Text="Log ind"></TextBlock>
+                <TextBlock FontSize="26" FontFamily="Bold" Foreground="White" Text="Log ind"/>
             </Grid>
-            <Grid Grid.Column="2" HorizontalAlignment="Right">
-            </Grid>
+            <Grid Grid.Column="2" HorizontalAlignment="Right"/>
         </Grid>
         <Grid/>
 
@@ -37,9 +36,24 @@
             <TextBlock Margin="0 0 0 4" Text="Brugernavn" FontWeight="Bold" FontSize="16"/>
             <TextBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="eks. jens@zealand.dk"/>
             <TextBlock Margin="0 10 0 4" Text="Kodeord" FontWeight="Bold" FontSize="16"/>
-            <PasswordBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="******" PasswordChar="*"></PasswordBox>
+            <PasswordBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="******" PasswordChar="*"/>
             <Button Margin="0 20 0 0" Content="Login" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5" />
-            <TextBlock Margin="0 10 0 50" Text="Opret bruger" FontFamily="Arial Black" TextDecorations="Underline" HorizontalAlignment="Center"/>
+            <TextBox Margin="0 10 0 50" Text="Opret bruger" FontFamily="Arial Black"  HorizontalAlignment="Center">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="SelectionChanged">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.OpretBrugerView"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </TextBox>
+            <Button Margin="0 -50 0 0" Content="Gå direkte til forsiden" FontWeight="Bold" HorizontalAlignment="Right" Foreground="Black" Background="Red" Padding="10 5" >
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.Forside"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
+
+
 
         </StackPanel>
     </Grid>
