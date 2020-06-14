@@ -24,7 +24,7 @@
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0"/>
             <Grid Grid.Column="1" HorizontalAlignment="Center">
-                <TextBlock FontSize="26" FontFamily="Bold" Foreground="White" Text="Log ind"/>
+                <TextBlock FontSize="26" FontFamily="Arial Black" FontWeight="Bold" Foreground="#FFF387" Text="Log ind"/>
             </Grid>
             <Grid Grid.Column="2" HorizontalAlignment="Right"/>
         </Grid>
@@ -37,7 +37,8 @@
             <TextBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="eks. jens@zealand.dk"/>
             <TextBlock Margin="0 10 0 4" Text="Kodeord" FontWeight="Bold" FontSize="16"/>
             <PasswordBox BorderBrush="Black" Margin="0,0,20,0" FontSize="25" Height="50" Width="300" PlaceholderText="******" PasswordChar="*"/>
-            <Button Margin="0 20 0 0" Content="Login" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5" />
+            <Button Margin="0 20 0 0" Content="Log ind" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5" />
+            
             <TextBox Margin="0 10 0 50" Text="Opret bruger" FontFamily="Arial Black"  HorizontalAlignment="Center">
                 <Custom:Interaction.Behaviors>
                     <Custom1:EventTriggerBehavior EventName="SelectionChanged">
@@ -45,6 +46,7 @@
                     </Custom1:EventTriggerBehavior>
                 </Custom:Interaction.Behaviors>
             </TextBox>
+            
             <!--Knappen navigerer dig direkte til forsiden-->
             <Button Margin="0 -50 0 0" Content="Gå direkte til forsiden" FontWeight="Bold" HorizontalAlignment="Right" Foreground="Black" Background="Red" Padding="10 5" >
                 <Custom:Interaction.Behaviors>
