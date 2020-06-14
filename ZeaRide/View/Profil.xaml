@@ -89,7 +89,28 @@
             <TextBlock Text="+45 5076 2600" HorizontalAlignment="Center" Margin="0,120,0,3" Grid.Row="4" Grid.Column="8"/>
             <TextBlock Text="Email: roskilde@zealand.dk" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="17,121,0,3" Grid.Row="4" Grid.Column="4"/>
 
-            <Image Source="/Assets/prodbox1a.png" Grid.ColumnSpan="10" Margin="50,96,57,34" Grid.RowSpan="5" />
+            <Grid Grid.Row="1" Grid.ColumnSpan="5" Margin="11,114,99,39" Grid.RowSpan="3" Grid.Column="1" BorderBrush="Black" BorderThickness="2">
+                <Button Content="Gem og Opdatér" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" Height="46" Width="221"></Button>
+                <TextBlock Text="*Det er især vigtigt at dine biloplysninger er aktuelle, så dine passagere kan finde dig" Margin="27,424,19,43" TextWrapping="Wrap"/>
+                <StackPanel Background="Black" Margin="0,0,0,484" HorizontalAlignment="Left" Width="397">
+                    <TextBlock Text="Profiloplysninger" Foreground="Yellow" Margin="0,5,0,0" RenderTransformOrigin="0.43,0.496" Width="114" Height="24" FontWeight="Bold"/>
+                </StackPanel>
+                <Grid Height="100" Margin="0,57,0,364" HorizontalAlignment="Center" Width="371">
+                    <TextBlock Text="Fulde Navn" Margin="22,0,208,72" SelectionChanged="TextBlock_SelectionChanged"/>
+                    <TextBox Margin="10,24,10,39"/>
+                </Grid>
+                <Grid Height="100" Margin="2,142,2,279">
+                    <TextBlock Text="Bil" Margin="22,0,208,72" SelectionChanged="TextBlock_SelectionChanged"/>
+                    <TextBox Margin="10,24,191,39"/>
+                    <TextBlock Text="Farve" Margin="230,0,0,72" SelectionChanged="TextBlock_SelectionChanged"/>
+                    <TextBox Margin="218,24,10,39"/>
+                </Grid>
+                <Grid Height="100" Margin="3,244,1,177">
+                    <TextBlock Text="By" Margin="22,0,208,72" SelectionChanged="TextBlock_SelectionChanged"/>
+                    <TextBox Margin="10,24,10,39"/>
+                </Grid>
+            </Grid>
+
 
         </Grid>
     </Grid>

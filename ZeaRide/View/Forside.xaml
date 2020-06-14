@@ -88,7 +88,7 @@
             <TextBlock Text="+45 5076 2600" HorizontalAlignment="Center" Margin="0,120,0,3" Grid.Row="4" Grid.Column="8"/>
             <TextBlock Text="Email: roskilde@zealand.dk" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="17,121,0,3" Grid.Row="4" Grid.Column="4"/>
 
-            <Image Source="Assets/prodbox1a.png" Grid.ColumnSpan="10" Margin="50,96,57,34" Grid.RowSpan="5" />
+            <Image Source="/Assets/prodbox1a.png" Grid.ColumnSpan="10" Margin="50,96,57,34" Grid.RowSpan="5" />
 
         </Grid>
     </Grid>
