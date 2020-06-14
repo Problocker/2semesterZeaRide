@@ -9,7 +9,6 @@
     <RootPropertyPathName Name="bemaerkninger" />
     <RootPropertyPathName Name="tilDestination" />
     <RootPropertyPathName Name="fraDestination" />
-    <RootPropertyPathName Name="LoginCommand" />
     <RootPropertyPathName Name="SkabBruger" />
     <RootPropertyPathName Name="email" />
     <RootPropertyPathName Name="efternavn" />
