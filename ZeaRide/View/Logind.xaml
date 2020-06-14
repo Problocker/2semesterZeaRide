@@ -45,6 +45,7 @@
                     </Custom1:EventTriggerBehavior>
                 </Custom:Interaction.Behaviors>
             </TextBox>
+            <!--Knappen navigerer dig direkte til forsiden-->
             <Button Margin="0 -50 0 0" Content="Gå direkte til forsiden" FontWeight="Bold" HorizontalAlignment="Right" Foreground="Black" Background="Red" Padding="10 5" >
                 <Custom:Interaction.Behaviors>
                     <Custom1:EventTriggerBehavior EventName="Click">
