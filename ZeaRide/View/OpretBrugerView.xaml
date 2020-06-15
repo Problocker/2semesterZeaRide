@@ -57,7 +57,13 @@
             <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,232,0,0" Width="264" RenderTransformOrigin="0.509,-0.492"/>
             <TextBlock Text="Gentag kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,270,0,0"/>
             <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,297,0,0" Width="264"/>
-            <Button Content="Opret" Margin="0,383,0,0" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5" />
+            <Button Content="Opret" Margin="0,383,0,0" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5">
+                <Custom:Interaction.Behaviors>
+                    <Custom1:EventTriggerBehavior EventName="Click">
+                        <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.Profil"/>
+                    </Custom1:EventTriggerBehavior>
+                </Custom:Interaction.Behaviors>
+            </Button>
 
 
 
