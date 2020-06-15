@@ -53,10 +53,10 @@
             <TextBox Text="{Binding SkabBruger.efternavn, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,95,0,0" Width="125"/>
             <TextBlock Text="Email" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,144,0,0"/>
             <TextBox Text="{Binding SkabBruger.email, Mode=TwoWay}" PlaceholderText="f.eks. jens@zealand.dk" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,171,0,0" Width="264"/>
-            <TextBlock Text="Kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="38,0,0,0"/>
-            <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,232,0,0" Width="264" RenderTransformOrigin="0.509,-0.492"/>
-            <TextBlock Text="Gentag kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,270,0,0"/>
-            <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,297,0,0" Width="264"/>
+            <TextBlock Text="Kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,222,0,0"/>
+            <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,249,0,0" Width="264" RenderTransformOrigin="0.509,-0.492"/>
+            <TextBlock Text="Gentag kodeord" Foreground="Black" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,286,0,0"/>
+            <PasswordBox PlaceholderText="***" PasswordChar="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,311,0,0" Width="264"/>
             <Button Content="Opret" Margin="0,383,0,0" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Background="#FFF387" Padding="10 5">
                 <Custom:Interaction.Behaviors>
                     <Custom1:EventTriggerBehavior EventName="Click">
