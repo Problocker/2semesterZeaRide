@@ -39,7 +39,7 @@
         <Grid Width="700" Margin="150,126,150,150" BorderThickness="1" BorderBrush="Black">
             <Grid Width="700" Height="40" VerticalAlignment="Top" Background="Black">
                 <TextBlock Text="Brugeroprettelse" Foreground="#FFF387" FontFamily="Arial Black" HorizontalAlignment="Center" FontSize="16" Height="34" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" Margin="0,11,0,0" FontWeight="Bold"/>
-                <Button Content="Tilbage" Margin="5,0,0,0" Background="Red" Foreground="Black" FontWeight="Bold">
+                <Button Content="Tilbage" Margin="5,0,0,0" Background="#FFF387" Foreground="Black" FontWeight="Bold">
                     <Custom:Interaction.Behaviors>
                         <Custom1:EventTriggerBehavior EventName="Click">
                             <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.Logind"/>

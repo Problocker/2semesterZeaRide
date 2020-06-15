@@ -48,7 +48,7 @@
             </TextBox>
             
             <!--Knappen navigerer dig direkte til forsiden-->
-            <Button Margin="0 -50 0 0" Content="Gå direkte til forsiden" FontWeight="Bold" HorizontalAlignment="Right" Foreground="Black" Background="Red" Padding="10 5" >
+            <Button Margin="0 -50 0 0" Content="Gå direkte til forsiden" FontWeight="Bold" HorizontalAlignment="Right" Foreground="Black" Background="#fff387" Padding="10 5" >
                 <Custom:Interaction.Behaviors>
                     <Custom1:EventTriggerBehavior EventName="Click">
                         <Custom1:NavigateToPageAction TargetPage="ZeaRide.View.Forside"/>
